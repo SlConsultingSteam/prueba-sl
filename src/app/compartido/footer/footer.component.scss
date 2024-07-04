@@ -1,0 +1,118 @@
+/* Estilos generales */
+// @font-face {
+//   font-family: 'Arial Nova';
+//   src: url('path/to/arial-nova.woff2') format('woff2'),
+//       url('path/to/arial-nova.woff') format('woff');
+// }
+body {
+  font-family: 'Arial Nova', Arial, sans-serif;
+}
+.footer_header {
+  background-color: black;
+  color: white;
+  font-family: 'Arial Nova', Arial, sans-serif;
+}
+.icono-red-social {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.texto-superpuesto {
+  margin-bottom: 160px;
+}
+.contact-info p, .modelos-soluciones p, .footer-final p {
+  margin-bottom: 4px;
+}
+.footer-final p {
+  color: gray;
+  line-height: 1.2;
+}
+.font-bold {
+  font-weight: bold;
+}
+.text-white {
+  color: white;
+}
+.text-gray {
+  color: gray;
+}
+
+/* Estilos específicos para el footer */
+.texto-superpuesto {
+  position: absolute;
+  top: 30%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 300px;
+  padding: 5px;
+  margin-top: -30px;
+  margin-left: 15px;
+  font-size: 70px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: left;
+}
+
+/* Responsive: Pequeños dispositivos móviles (menos de 600px) */
+@media (max-width: 576px) {
+  .footer_header {
+      text-align: center;
+      padding: 20px;
+  }
+  .icono-red-social {
+      width: 30px;
+      height: 30px;
+      margin-left: 10px;
+  }
+  .texto-superpuesto {
+      font-size: 40px;
+      margin-left: 0;
+      left: 50%;
+  }
+}
+
+/* Responsive: Dispositivos muy grandes (más de 1800px) */
+@media (min-width: 1800px) {
+  .texto-superpuesto {
+      font-size: 70px;
+      margin-left: -65px;
+  }
+}
+
+/* Dispositivos Móviles Pequeños (320px - 599px) */
+@media (min-width: 320px) and (max-width: 599px) {
+  .footer_header {
+    padding-bottom: 30px;
+    overflow-x: hidden !important;
+  }
+  .logoSL {
+    width: 255px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #ondaGris {
+    width: auto !important;
+    // margin: 0px !important;
+  }
+  .logoACEI {
+    display: inline-flex !important;
+    justify-content: center;
+    width: 90% !important;
+  }
+  // .logosRedes {
+  //   border: 2px solid blue;
+  // }
+  .icono-red-social {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .finalFooter {
+    position: relative !important;
+    text-align: center !important;
+  }
+}

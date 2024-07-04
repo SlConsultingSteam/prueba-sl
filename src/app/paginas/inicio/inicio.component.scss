@@ -1,0 +1,1837 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.form-control {
+  width: 65% ;
+  height: 16%;
+  padding: 16px;
+  margin-bottom: 15px; 
+  border-radius: 8px;
+}
+
+.hola {
+  font-size: 42px; 
+  font-family: 'Century Gothic'; 
+  font-weight: bold;
+}
+
+.texto-superpuesto {
+  margin-top: -20px;
+  margin-left: -2px;
+}
+
+.bienvenida {
+  margin-top: -16px; 
+  margin-bottom: -14px;
+  font-size: 24px;
+  font-family: "Arial Nova", Arial, sans-serif;
+
+}
+.hacemos {
+  font-size: 48px; 
+  font-family: 'Century Gothic'; 
+  font-weight: bold;
+}
+
+.invisub {
+  margin-top: -66px !important; 
+  width: 575px; 
+  margin: 0px;
+  margin-left: -80px;
+  // border: 2px solid red;
+}
+
+.entendemos {
+  margin-left: 2px; 
+  margin-top: 65px; 
+  font-size: 24px; 
+  font-family: 'Arial Nova', Arial, sans-serif; 
+  line-height: 1.2;
+}
+
+.comIzq {
+  position: absolute; 
+  z-index: 100; 
+  width: 55px; 
+  height: 55px; 
+  top: 35%; 
+  left: 20.8%; 
+  transform: translate(-50%, -50%);
+}
+
+.comDer {
+  position: absolute; 
+  z-index: 100; 
+  width: 55px; 
+  height: 55px; 
+  top: 73.5%; 
+  right: 25.5%; 
+  transform: translate(-50%, -50%);
+}
+
+
+.text-area {
+  width: 65%;
+  resize: none;
+  border: 1.5px solid silver;
+  border-radius: 8px;
+  height: 65%;
+  padding: 15px;
+}
+
+.form-control:focus .text-area:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: transparent; 
+}
+
+
+.form-check-input {
+  padding: 4px;
+  border-radius: 100%;
+  margin-top: 6px;
+  width: 20px; /* Ajusta el ancho del checkbox */
+  height: 16px; /* Ajusta la altura del checkbox */
+}
+
+.form-check-label {
+  margin-bottom: 6px;
+  margin-left: 30px;
+}
+
+.hablemos {
+  position: absolute; 
+  font-size: 24px; 
+  left: 1050px; 
+  top: 685px; 
+  padding-left: 55px; 
+  padding-top: 4px; 
+  padding-bottom: 4px; 
+  padding-right: 55px; 
+  font-family: Century Gothic; 
+  cursor: pointer;
+}
+
+.video-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.mapa-container-c {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* Este maneja elcolor del primer slide , el de Hola*/
+.texto-superpuesto {
+  position: absolute;
+  top: 30%;
+  left: 3.5%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 5px;
+  font-size: 70px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: left;
+}
+
+.estamos {
+  position: absolute; 
+  color: white; 
+  left: 10%; 
+  right: 10%; 
+  font-size: 32px; 
+  font-family: 'Century Gothic'; 
+  text-align: center; 
+  top: 55%; 
+  transform: translateY(-50%);
+}
+
+.mago {
+  width: 75%; 
+  height: 100%; 
+  background-color: transparent; 
+}
+
+.end::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 32%; /* Ancho de la línea */
+  height: 15px; /* Grosor de la línea */
+  background-color: #00b4b2; /* Color de la línea */
+  margin: 0 auto; /* Centrar la línea horizontalmente */
+  left: 34%;
+  bottom: 10%;
+  z-index: -1;
+}
+
+.zoom-in {
+  object-fit: cover;
+  width: 85%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.zoom-in:hover {
+  transform: scale(0.9);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+.sombratexto {
+  text-shadow: 2px 2px 4px rgba(0.7, 0.7, 0.7, 0.7);
+}
+
+::placeholder {
+  color: white;
+}
+
+.banner {
+  position: fixed;
+  /* Ajusta la posición izquierda según tu diseño */
+  top: 38%; /* Centra verticalmente el banner */
+  right: 0; /* Coloca el banner en el lado derecho */
+  transform: translateY(-50%);
+  padding: 0.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  background-color: #625e5e; /* Color de fondo gris para el banner */
+  background-color: rgba(
+    98,
+    94,
+    94,
+    0.7
+  ); /* Color de fondo gris con 70% de opacidad */
+  border-radius: 10px; /* Radio de los bordes de 10px para hacerlos redondos */
+}
+
+.mapa-container10 {
+  margin-top: 0;
+}
+
+.texto-centradoDA {
+  text-align: center;
+}
+
+.redes-sociales {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Cambia a 'row' si quieres los iconos en una fila */
+  align-items: center;
+}
+
+.redes-sociales li {
+  margin: 5px; /* Espacio entre los iconos */
+}
+
+.redes-sociales img {
+  width: 40px; /* Ajusta el tamaño de los iconos según tus necesidades */
+  height: 40px;
+}
+
+.animate-text {
+  opacity: 0; /* Inicialmente invisible */
+  animation: fadeIn 5s forwards; /* Animación de fade-in */
+}
+
+.delay-1 {
+  animation-delay: 0s;
+}
+
+.delay-2 {
+  animation-delay: 1s;
+}
+
+.delay-3 {
+  animation-delay: 2s;
+}
+
+.delay-4 {
+  animation-delay: 2.5s;
+}
+
+.delay-5 {
+  animation-delay: 4s;
+}
+
+.delay-6 {
+  animation-delay: 5s;
+}
+.delay-7 {
+  animation-delay: 6s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.texto-superpuestoPuente {
+  position: absolute;
+  top: 30%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 5px;
+  margin-top: 30px;
+  font-size: 70px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: center;
+}
+
+.texto-superpuestoTituloBanner {
+  position: absolute;
+  width: 450px;
+  top: 350px;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  padding: 5px;
+  font-size: 70px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: left;
+}
+
+.texto-superpuestoTituloBanner2 {
+  position: absolute;
+  width: 650px;
+  top: 710px;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  background: rgba(187, 19, 19, 0.5);
+  padding: 0px;
+  font-size: 80px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: left;
+}
+
+
+
+.texto-superpuestocard {
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  width: 450px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: gray;
+  padding: 5px;
+  margin-top: 30px;
+  font-size: 70px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: left;
+}
+
+.texto-superpuesto2 {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 60px; /* Utilizamos un porcentaje para el padding */
+  font-size: 40px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: left;
+  width: 280px; /* Ancho inicial del elemento */
+  height: 160px; /* Altura inicial del elemento */
+}
+
+.texto-superpuesto3 {
+  position: absolute;
+  // top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+  padding: 5px;
+  // margin-top: 30px;
+  margin-left: 60px; /* Utilizamos un porcentaje para el padding */
+  font-size: 40px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  // z-index: 1;
+  background-color: transparent;
+  text-align: left;
+}
+
+.texto-colombia {
+  position: absolute;
+  top: 13%;
+  left: 59.5%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+
+  margin-top: 30px;
+  margin-left: 60px; /* Utilizamos un porcentaje para el padding */
+  font-size: 12px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: center;
+}
+
+.texto-ecuador {
+  position: absolute;
+  top: 32%;
+  left: 59.5%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+
+  margin-top: 30px;
+  margin-left: 5px; /* Utilizamos un porcentaje para el padding */
+  font-size: 12px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: left;
+}
+
+.texto-honduras {
+  position: absolute;
+  top: 15%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+
+  margin-top: 30px;
+  margin-left: 5px; /* Utilizamos un porcentaje para el padding */
+  font-size: 12px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: center;
+}
+
+.texto-chile {
+  top: 18%;
+  left: 57.2%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+
+  margin-top: 10px;
+  margin-left: 5px; /* Utilizamos un porcentaje para el padding */
+  font-size: 12px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: center;
+}
+
+.texto-salvador {
+  position: absolute;
+  top: 18%;
+  left: 57.2%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+
+  margin-top: 10px;
+  margin-left: 5px; /* Utilizamos un porcentaje para el padding */
+  font-size: 12px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: center;
+}
+
+.peru {
+  position: absolute;
+  margin-top: 46px;
+  right: 405px;
+}
+
+.texto-panama {
+  position: absolute;
+  top: 5%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: rgb(0, 0, 0);
+
+  margin-top: 25px;
+  margin-left: 132px; /* Utilizamos un porcentaje para el padding */
+  font-size: 12px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: center;
+}
+
+.texto-mexico {
+  position: absolute;
+  top: 5%;
+  left: 50.8%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #14548f;
+  // color: black;
+  margin-top: 20px;
+  margin-left: 153px; /* Utilizamos un porcentaje para el padding */
+  font-size: 12px; /* Utilizamos un porcentaje para el tamaño de fuente */
+  z-index: 1;
+  background-color: transparent;
+  text-align: center;
+}
+
+.mapa-container {
+  background-color: #f9f9f9;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-button {
+  background: linear-gradient(to right, #e72c4b, #54337b);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.custom-button3 {
+  background: linear-gradient(to right, #c01f56, #54337b);
+  border: none;
+  color: white;
+}
+
+.custom-button10 {
+  background: linear-gradient(to right, #e72c4b, #e72c4b);
+  border: none;
+  color: white;
+  border-radius: 30px; /* Ajusta el valor según lo redondo que desees el botón */
+  font-weight: 400;
+  letter-spacing: 1px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.26),
+    /* Sombra debajo */ 0px -4px 6px rgba(0, 0, 0, 0.3),
+    /* Sombra arriba */ 4px 0px 6px rgba(0, 0, 0, 0.3),
+    /* Sombra derecha */ -4px 0px 6px rgba(0, 0, 0, 0.3); /* Sombra izquierda */
+}
+
+.miparrafo {
+  background: -webkit-linear-gradient(
+    left,
+    #c01f56,
+    #54337b
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    right,
+    #c01f56,
+    #54337b
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    right,
+    #c01f56,
+    #54337b
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #c01f56, #54337b); /* Standard syntax */
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+.superpuestoejemplo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fondoGris {
+  width: 500px; /* Ajusta el ancho según sea necesario */
+  height: 300px;
+  //background-image: url('../assets/imagenes/slides/f_banner_1_sm.jpg'); /* Ruta de tu imagen */
+  color: rgb(
+    255,
+    255,
+    255
+  ); /* Ajusta el color del texto para que sea legible sobre la imagen */
+  text-align: center; /* Ajusta la alineación del texto */
+  padding: 20px;
+}
+
+.tarjeta {
+  position: relative;
+  clip-path: polygon(
+    0% 15%,
+    0 0,
+    15% 0%,
+    49% 0,
+    49% 31%,
+    100% 31%,
+    100% 85%,
+    100% 100%,
+    85% 100%,
+    15% 100%,
+    0 100%,
+    0% 85%
+  );
+  border-radius: 45px; /* Ajusta el valor según sea necesario */
+}
+
+.poligono {
+  width: 200px;
+  height: 150px;
+  background-color: #000000;
+  position: relative;
+  clip-path: polygon(
+    0% 15%,
+    0 0,
+    15% 0%,
+    49% 0,
+    49% 31%,
+    100% 31%,
+    100% 85%,
+    100% 100%,
+    85% 100%,
+    15% 100%,
+    0 100%,
+    0% 85%
+  );
+  overflow: hidden;
+}
+
+.poligono::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px; /* Ancho del borde */
+  height: 20px; /* Altura del borde */
+  background-color: #ff0000; /* Color del borde */
+  z-index: 1;
+}
+
+.custom-button2 {
+  background: linear-gradient(to right, #3ac17e, #2dd596);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 0;
+  right: 70px;
+}
+
+.custom-button:hover {
+  background: linear-gradient(to right, #54337b, #c01f56);
+}
+
+.consultora {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.consultoraH {
+  font-size: 25px;
+  color: #ffffff;
+}
+.consultoraP {
+  color: #ffffff;
+}
+
+.responsive {
+  display: none !important; 
+  visibility: hidden;
+}
+
+.normal {
+  display: block !important;
+  visibility: visible;
+
+}
+
+
+
+.cartas {
+  border: none; /* Borde */
+  border-radius: 32px; /* Bordes redondeados */
+  // padding: 10px; /* Espaciado interno */
+  // -webkit-box-shadow: 0px 0px 9px 1px rgb(16, 15, 15);
+  // -moz-box-shadow: 0px 0px 9px 1px rgb(7, 7, 7);
+  // box-shadow: 0px 0px 9px 1px rgb(22, 22, 22);
+  position: relative;
+}
+
+.cartasComentarios {
+  border: 1px solid #ccc; /* Borde con color gris claro */
+  border-bottom-left-radius: 50px; /* Bordes redondeados */
+  border-top-right-radius: 50px; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+  -webkit-box-shadow: 0px 0px 9px 1px rgb(198, 197, 197);
+  -moz-box-shadow: 0px 0px 9px 1px rgb(198, 197, 197);
+  box-shadow: 0px 0px 9px 1px rgb(198, 197, 197);
+  position: relative;
+}
+
+/* Estilos para el logotipo */
+.logo {
+  position: absolute;
+  top: 10px; /* Posición superior en píxeles */
+  right: 10px; /* Posición derecha en píxeles */
+  width: 50px; /* Ancho del logotipo */
+}
+
+.logoinvisible {
+  width: 115%;
+  margin-left: -50px;
+}
+
+// forma ovalor css
+.oval-shape {
+  border-radius: 50%;
+}
+
+.backRed {
+  background-color: #f7003e; /* Fondo rojo */
+  color: white; /* Texto blanco para contrastar */
+  padding: 0 3px; /* Espacio adicional alrededor del texto */
+  font-weight: bold;
+}
+
+@keyframes revealText {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+}
+
+.video-container2 {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+  overflow: hidden;
+}
+
+/* Estilos para el video */
+.video2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Coloca el video detrás de otros elementos */
+}
+
+@media only screen and (max-width: 750px) {
+  .texto-superpuesto {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #000000;
+    padding: 5px;
+    margin-left: 60px; /* Utilizamos un porcentaje para el padding */
+    font-size: 20px; /* Utilizamos un porcentaje para el tamaño de fuente */
+    z-index: 1;
+    background-color: transparent;
+    text-align: left;
+  }
+
+  .texto2 {
+    font-size: 12px;
+  }
+
+  .texto-superpuesto img {
+    order: -1;
+    margin-right: 10px;
+    margin-bottom: 100px;
+  }
+
+  .logoinvisible {
+    width: 60%;
+    margin-top: 17px;
+    margin-left: -20px;
+  }
+}
+
+.mx-auto {
+  width: 80px;
+  height: 55px;
+}
+
+.btn-secondary {
+  background-color: rgb(255, 253, 253);
+}
+
+.slide {
+  background-color: #e54f16;
+}
+
+.bg-exitoso {
+  background-color: #28a74512;
+  border-radius: 18px;
+}
+.bg-error {
+  background-color: #dc354557;
+  border-radius: 18px;
+}
+.bg-btn {
+  background-color: transparent !important;
+}
+.cerrar {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 999;
+  padding-right: 12px;
+}
+.bg-pqr {
+  background-color: linear-gradient(
+    89.59deg,
+    rgba(39, 41, 45, 0) 29.38%,
+    rgba(39, 41, 45, 0.68404) 97.05%,
+    #27292d 99.57%
+  );
+}
+#modal-free {
+  backdrop-filter: blur(5px);
+}
+.zomm {
+  animation: crecer 3s infinite;
+}
+
+.pulse {
+  animation: pulse 3s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+.desvanecimiento {
+  animation: desv 7s;
+}
+.modal-form {
+  background: rgba(255, 255, 255, 0.247);
+  //opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95.6%;
+  height: 100%;
+  margin-left: 0.9em;
+  margin-right: 2em;
+  border-radius: 35px;
+  backdrop-filter: blur(2px);
+  z-index: 999;
+  display: flex;
+}
+.center {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+}
+.text-orange {
+  color: #e54f16;
+}
+.texto-degrade {
+  background: linear-gradient(90deg, #e54f16, #6c2f18);
+  background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.7em;
+}
+.img-arrow {
+  position: absolute;
+  bottom: 0px;
+}
+.img-left {
+  right: -50px;
+  z-index: 99;
+}
+.img-right {
+  left: -50px;
+}
+
+@keyframes desv {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes crecer {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+//responsive
+
+@media (min-width: 1500px) {
+  .slider-size {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bg-slider {
+    background-color: #e54f16;
+  }
+}
+
+@media (max-width: 576px) {
+  .slide {
+    background-position: center top !important;
+  }
+
+  .modal-form {
+    width: 91%;
+  }
+  .titulo {
+    font-size: 1.2em;
+  }
+  .titulosini {
+    font-size: 1.7em !important;
+  }
+  .linea_azul {
+    display: none !important;
+  }
+  .subtitleini {
+    font-size: 1.4em;
+  }
+  #accordionIKE .interrogacion {
+    padding-left: 0px;
+    padding-top: 6px;
+  }
+  .ocultarbr {
+    display: none;
+  }
+}
+
+//hace efecto de pulso
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(56, 54, 46, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 20px rgba(204, 169, 44, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+.loading-text {
+  height: 100px;
+  h2 {
+    display: inline-block;
+    color: #e54f16;
+    @for $i from 0 through 10 {
+      &:nth-child(#{$i + 1}) {
+        filter: blur(0px);
+        animation: blur-text 0.5s (#{$i/5}) + s infinite linear alternate;
+      }
+    }
+  }
+}
+
+@keyframes blur-text {
+  0% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(2px);
+    color: #e04507;
+  }
+}
+
+
+/* logo-carousel.component.css */
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item.active {
+  position: relative;
+  opacity: 1;
+  animation: slide-in-left 0.3s forwards;
+}
+
+.carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.05s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item .row {
+  width: 100%;
+}
+
+.carousel-item img {
+  width: 130px;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+.carousel-item .col-md-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.ocultc {
+  display: flex;
+}
+
+.visble {
+  display: none;
+}
+
+
+// Carrusel azul
+.carrusel-container {
+  background-color: #4DB2B0;
+  height: 60px;
+  margin-top: 0;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center; /* Centra verticalmente el contenido */
+}
+
+.containerCarru {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+}
+
+.texto-wrapper {
+  display: flex;
+  width: 200%; /* Asegúrate de que sea el doble del ancho para acomodar el texto duplicado */
+  animation: mover 25s linear infinite;
+  align-items: center; /* Asegura que los elementos internos estén centrados verticalmente */
+}
+
+.texto {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: 0;
+  font-family: Century Gothic, sans-serif;
+  font-size: 24px;
+  white-space: nowrap;
+  padding-right: 100%; /* Espacio para el segundo bloque de texto */
+}
+
+.texto span {
+  font-size: 22px;
+  margin-left: 17px; /* Añade espacio entre los spans */
+}
+
+.contConvenc2 {
+  display: none;
+}
+
+
+.normalQuienes {
+  display: block;
+}
+
+.responQuienes {
+  display: none;
+}
+
+#seccion-hablemos {
+  display: flex;
+}
+#seccion-hablemos2 {
+  display: none;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+// Dispositivos Móviles Pequeños (menos de 600px)
+@media (min-width: 320px) and (max-width: 599px) {
+
+  .contenido {
+    overflow-x: hidden !important;
+  }
+
+  .texto-wrapper {
+    display: flex;
+    width: 200%; /* Asegúrate de que sea el doble del ancho para acomodar el texto duplicado */
+    animation: mover 20s linear infinite !important;
+    align-items: center; /* Asegura que los elementos internos estén centrados verticalmente */
+  }
+
+  // Seccion del gif
+  .video-container {
+    // border: 2px solid rgb(235, 225, 225);
+    margin-bottom: 0px;
+    height: 285px;
+    width: 100%;
+  }
+  .gifBanner {
+    width: 100% !important;
+    height: 77% !important;
+    // border: 2px solid blue;
+    margin-top: 20px;
+  }
+  .texto-superpuesto {
+    position: relative !important;
+    margin-top: -250px !important;
+    left: 20px !important;
+    // border: 2px solid #209ae0;
+    color: white;
+    font-size: 15px !important;
+  }
+  .hola {
+    font-size: 18px; 
+    font-family: 'Century Gothic'; 
+    font-weight: bold;
+  }
+  .bienvenida {
+    margin-top: 5px; 
+    margin-bottom: 2px;
+    font-size: 14px;
+    width: 55%;
+    line-height: 1;
+    // border: 1px solid blue;
+    font-family: "Arial Nova", Arial, sans-serif;
+  }
+  .hacemos {
+    font-size: 18px; 
+    font-family: 'Century Gothic'; 
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  .invisub {
+    width: 215px;
+    margin-left: -31px;
+    // border: 2px solid red;
+    margin-top: -17px !important;
+  }
+  .entendemos {
+    margin-top: 0px;
+    font-size: 14px !important; 
+    font-family: 'Arial Nova', Arial, sans-serif; 
+  }
+  // Seccion de onda
+  .contBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 2px solid rgb(236, 223, 39);
+    margin: 0 !important;
+  }
+  .ondaGris {
+    display: flex;
+    margin-top: 10px !important;
+    width: 100% !important;
+  }
+  .estamos {
+    // border: 2px solid orange;
+    font-size: 20px;
+    height: auto;
+    margin-top: -20px;
+    width: 78%;
+    margin-right: -10px;
+    // display: none;
+  }
+  .comIzq {
+    position: absolute; 
+    z-index: 100; 
+    width: 30px; 
+    height: 30px; 
+    top: 23%; 
+    left: 7.3%;
+    transform: translate(-50%, -50%);
+  }
+  .comDer {
+    position: absolute; 
+    z-index: 100; 
+    width: 30px; 
+    height: 30px; 
+    top: 78%; 
+    right: 29.5%; 
+    transform: translate(-50%, -50%);
+  }
+  // Seccion de mago
+  .mapa-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+    width: 100%;
+  }
+  .mago {
+    width: 475px; 
+    height: 100%; 
+    background-color: transparent; 
+  }
+  .hablemos {
+    position: absolute; 
+    font-size: 16px; 
+    left: 150px; 
+    top: 315px; 
+    padding-left: 20px; 
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+    padding-right: 20px; 
+    font-family: Century Gothic; 
+    cursor: pointer;
+  }
+  // Seccion somos
+  .textSomos {
+    font-size: 28px !important;
+  }
+  .normal {
+    display: none !important;
+    visibility: hidden;
+  }
+  .responsive {
+    display: block !important;
+    visibility: visible;
+  }
+  .basamos {
+    display: block;
+    height: auto;
+    // border: 2px solid blue;
+    margin-bottom: -120px;
+  }
+  .nosBasa {
+    // border: 2px solid orange;
+    height: 120% !important;
+    width: 100% !important;
+  }
+  .texto span {
+    font-family: Century Gothic, sans-serif;
+    font-size: 18px !important; 
+    white-space: nowrap;
+    padding-right: 100%; /* Espacio para el segundo bloque de texto */
+  }
+  .carrusel-container {
+    height: 45px;
+  }
+
+  .colm {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin: 0 !important;
+    padding-top: 55px !important;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .rar {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // border: 2px solid black;
+    width: 100%;
+    padding: 0px !important;
+    height: 100%;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .losIns {
+    font-size: 26px !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .hablemosIns {
+    padding-left:20px !important;  
+    padding-right: 20px !important; 
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 25px !important;
+    font-size: 18px !important;
+    margin-top: 25px !important;
+  }
+
+  .bolaClick {
+    margin-top: -30px !important; 
+    margin-left: -160px !important; 
+    position: absolute;
+    height: 65px !important;
+  }
+
+  // .secCabeza {
+  //   border: 2px solid blueviolet;
+  // }
+
+  .cabeza {
+    // border: 2px solid yellow !important;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgCabe {
+    // border: 2px solid rgb(196, 12, 233);
+    position: relative !important;
+    width: 70% !important;
+  }
+  // Seccion de desafiamos
+  #mancae1 {
+    display: none;
+  }
+  .mapa-container10 {
+    padding-top: 200px !important;
+    width: 100%;
+    height: 1250px !important;
+  }
+  .tituloPuente {
+    font-size: 22px !important;
+    font-weight: 500;
+    padding: 8px !important;
+  }
+  .strongP {
+    font-size: 24px !important;
+  }
+  .tituloPuente {
+    // border: 2px solid blue;
+    background: rgba(0, 0, 0, 0.041);
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 45px !important;
+    width: 90%;
+  }
+  .bolaC {
+    height: 65px !important;
+    margin-left: 36px !important;
+    margin-top: 30px !important;
+  }
+  .contConvenc {
+    display: none;
+  }
+  .contConvenc2 {
+    display: flex;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    // border: 2px solid blue;
+    width: 85% !important;
+    margin-top: 50px !important;
+  }
+  .convenc {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column ;
+    padding-left: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 24px !important;
+    text-align: center !important;
+  }
+  .tituloConvenc {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 26px !important;
+    margin-left: 0 !important;
+  }
+  .normalQuienes {
+    display: none;
+  }
+
+  .responQuienes {
+    display: flex;
+  }
+  .camb {
+    padding-top: 0px !important;
+  }
+  .tituloEndToEnd {
+    margin-top: 25px !important;
+    // border: 2px solid greenyellow;
+  }
+  .end {
+    // border: 2px solid #2dd596;
+    width: 100% !important;
+    font-size: 26px !important;
+  }
+  .end[_ngcontent-ng-c49373182]::after{
+    width: 95% !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .end::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 44%; /* Ancho de la línea */
+    height: 14px; /* Grosor de la línea */
+    // background-color: #00b4b2; 
+    margin: 0 auto; /* Centrar la línea horizontalmente */
+    left: 28%;
+    bottom: 10%;
+    z-index: -1;
+  }
+  .mapa-container-c {
+    border: none !important;
+    margin-top: 0 !important;
+  }
+  .capabilities {
+    margin-top: 110px !important;
+  }
+  .contBtns {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    // border: 2px solid blue;
+    flex-wrap: nowrap;
+  }
+  .btns{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+    // border: 2px solid #000000;
+    flex-wrap: nowrap;
+    gap: 4px !important;
+  }
+  .business {
+    width: 280px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .discovery {
+    margin-left: 0 !important;
+    width: 200px !important;
+  }
+  .cultura {
+    margin-left: 0 !important;
+    width: 280px !important; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .arrib {
+    padding-top: 5px !important;
+  }
+  // Seccion circulos
+  .mapa-container-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 2px solid #2ca4f5;
+    padding-top: 5px !important;
+  }
+  .capabilities {
+    margin-top: 45px !important;
+  }
+  // 1
+  .creamos {
+    // border: 2px solid black;
+    width: 80%;
+    font-size: 22px !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .bolCreamos {
+    display: flex;
+    // border: 2px solid blue;
+    width: 80% !important; 
+    margin-left: auto !important; 
+    margin-right: auto !important;
+    margin-top: -50px !important;
+  }
+  // 2
+  .combinando {
+    // border: 2px solid black;
+    width: 70%;
+    font-size: 22px !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .bolCombinando {
+    display: flex;
+    // border: 2px solid blue;
+    width: 59% !important; 
+    margin-left: 66px !important; 
+    margin-right: -1px !important;
+    margin-top: -25px !important;
+  }
+  // 3
+  .estrategico {
+    // border: 2px solid black;
+    width: 70%;
+    font-size: 22px !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 100px !important;
+  }
+  .bolaEstrategico {
+    display: flex;
+    // border: 2px solid rgb(40, 218, 135);
+    width: 59% !important; 
+    margin-left: 66px !important; 
+    margin-right: -1px !important;
+    margin-top: -45px !important;
+  }
+  // Seccion mapa
+  .mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // border: 2px solid rgb(218, 16, 245);
+    height: 1295px !important;
+    padding-bottom: 50px;
+  
+  }
+  .hemosImp {
+    margin-top: -295px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    font-size: 22px !important;
+  } 
+  .btnMapa {
+    position: relative !important;
+    font-size: 18px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: -100px !important;
+  }
+  .two {
+    margin-top: -540px !important;
+    margin-bottom: 0px !important;
+    // border: 2px solid purple;
+  }
+  .est {
+    line-height: 1; 
+    font-size: 39px; 
+    color: rgb(63, 62, 62); 
+    text-align: center !important; 
+    margin-top: 0px; 
+    margin-left: 0px !important;
+    font-size: 35px !important;
+  }
+  .dej {
+    line-height: 1; 
+    font-size: 39px; 
+    color: rgb(63, 62, 62); 
+    text-align: center !important; 
+    margin-top: 0px; 
+    margin-left: 0px !important;
+    font-size: 35px !important;
+  }
+  .huella {
+    margin-top: -350px !important; 
+    text-align: center !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-bottom: 0 !important;
+    font-size: 35px !important;
+
+  }
+  .personasMapa {
+    width: 80% !important;
+    margin-left: 0 !important;
+    margin-top: 985px !important;
+  }
+  .ocultc {
+    display: none;
+  }
+  .visble {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    margin-top: -250px !important;
+    align-items: center;
+    // border: 2px solid yellowgreen;
+  }
+
+  .mapaImg {
+    width: 100% !important;
+    // border: 2px solid red;
+    height: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .texto-superpuesto3 {
+    position: relative;
+    left: 0 !important;
+    transform: unset !important;
+    background: rgba(0, 0, 0, 0.5);
+    color: black;
+    padding: 5px;
+    margin-left: auto !important; /* Utilizamos un porcentaje para el padding */
+    margin-right: auto !important; /* Utilizamos un porcentaje para el padding */
+    font-size: 40px; /* Utilizamos un porcentaje para el tamaño de fuente */
+    background-color: transparent;
+    text-align: left;
+  }
+
+  .divBtnMapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  // Sección cartas- quienes lo hacen posible
+  .contQuienes {
+    // border: 2px solid red;
+    padding-top: 20px !important;
+  }
+  .titleQuienes {
+    font-size: 24px !important;
+  }
+  .pQuienes {
+    font-size: 20px !important;
+  }
+  // botones de conocelos
+  .btn {
+    font-size: 18px !important; 
+    padding-left: 15px !important; 
+    padding-right: 15px !important;
+    padding-top: 4px !important; 
+    padding-bottom: 4px !important;  
+    font-family: Century Gothic; 
+    cursor: pointer;
+  }
+  // slide de logos
+  .txtAliados {
+    font-size: 24px !important;
+  }
+  html {
+    overflow-x: hidden !important;
+  }
+  .contLogos {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 75% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    // background-color: orange;
+  }
+  .logos {
+    width: 55px !important;
+    height: 50px !important;
+    // border: 2px solid black;
+  }
+  .rowLog {
+    display: flex;
+    flex-wrap: nowrap !important;
+    margin-right: -50px;
+    margin-left: 0px;
+  }
+  .carousel-item {
+    margin: 0px !important;
+  }
+  .carousel-item[_ngcontent-ng-c3185576744] .row[_ngcontent-ng-c3185576744] {
+    width: auto;
+    background-color: #ffffff;
+  }
+  .carousel-control-next {
+    margin-right: -35px !important;
+  }
+  .carousel-control-prev {
+    margin-left: -25px !important;
+  }
+  // formulario
+  #seccion-hablemos {
+    display: none;
+  }
+  #seccion-hablemos2 {
+    display: block;
+    background-image: url('/assets/videos/fondo2.gif'); 
+    height: 1700px !important; 
+    background-size: cover; 
+    background-color :#FFFFFF;
+    margin-top: -80px;
+    width: 100%;
+  }
+  .containerF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px !important;
+    height: 100%;
+  }
+  .versati {
+    text-align: center !important;
+  }
+  .desafio {
+    text-align: center !important;
+  }
+  .lineaRoja {
+    position: absolute !important;
+    left: 15.5% !important;
+    margin-top: -10% !important;
+    width: 70% !important;
+  }
+  .containerPrin {
+    height: 100% !important;
+  }
+  .contHijo {
+    height: 100% !important;
+  }
+  .rowss {
+    height: auto !important;
+  }
+  .princ {
+    justify-content: center !important;
+    // border: 2px solid #eeea0f !important;
+  }  
+  .formulario {
+    // border: 2px solid #b700ff;
+    margin-top: 0px !important;
+    height: 90% !important;
+    margin: 0px !important;
+    gap: 8px;
+    padding-right: 0 !important;
+  }
+  .form-control {
+    width: 85% ;
+    height: 14%;
+    padding: 16px;
+    margin-bottom: 15px; 
+    border-radius: 8px;
+  }
+  .text-area {
+    width: 85%;
+    resize: none;
+    border: 1.5px solid silver;
+    border-radius: 8px;
+    height: 65%;
+    padding: 15px;
+  }
+  .form-check-input {
+    padding: 5px !important;
+    border-radius: 100%;
+    margin-top: 8px !important;
+    width: 18px;
+    height: 20px;
+  }
+  .tratamiento {
+    text-align: center !important;
+    width: 70% !important;
+    // border: 2px solid yellowgreen !important;
+  }
+  .tratamiento > p {
+    text-align: center !important;
+  } 
+
+}
+
+
+// Dispositivos Móviles Grandes (600px a 767px)
+@media (min-width: 600px) and (max-width: 767px) {
+
+}
+
+// Tabletas (768px a 1024px)
+@media (min-width: 768px) and (max-width: 1024px) {
+  // .contenido {
+  //   background-color: red !important;
+  // }
+}
+
+// Portátiles y Escritorios Pequeños (1025px a 1366px)
+@media (min-width: 1025px) and (max-width: 1366px) {
+  
+}
+// Escritorios Grandes (más de 1366px)
+@media (min-width: 1367px) {
+  
+}

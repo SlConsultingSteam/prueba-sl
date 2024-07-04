@@ -1,0 +1,1968 @@
+
+<div class="contenido" style="background-color: #000000; width: 100%;">
+
+  <!-- Inicio  slider  -->
+
+  <div class="video-container">
+
+    <img class="gifBanner" style="width: 85%; height: auto; position: relative;"
+      loading="lazy"
+      src="assets\videos\animados.gif" alt="Mi GIF">
+
+    <div class="texto-superpuesto">
+
+      <span class="animate-text delay-1 hola">¡Hola!</span>
+
+      <p class="animate-text delay-2 bienvenida">Te damos la bienvenida
+        a SL Consulting</p>
+
+      <span class="animate-text delay-3 hacemos">HACEMOS VISIBLE</span>
+
+      <p id="invisub" class="invisub"> </p>
+
+      <p class="entendemos">Entendemos
+        las <span class="backRed">realidades humanas</span> <br> que hay detrás
+        de las marcas, los negocios <br> y su gente.</p>
+    </div>
+
+  </div>
+  <!-- Fin  slider  -->
+
+  <div class="row contBanner" style="position: relative; width: 100%;">
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br>
+
+    <img class="comIzq" src="../../../assets/imagenes/comillas-izq.svg"
+      alt="comilla_izquierda">
+
+    <!-- Onda animada-->
+    <p id="ondaGris" class="ondaGris"
+      style="position: absolute; width: 110%; margin-top: -250px; left: -2%;">
+    </p>
+
+    <p class="estamos">Estamos en una <strong>revolución de la
+        consciencia</strong>, y nuestro <br>
+      propósito es humanizar la forma en que las empresas, las <br> marcas y sus
+      lideres impactan los contextos socilaes y
+      <br> culturales de su gente y de su entorno.</p>
+
+    <img class="comDer" src="../../../assets/imagenes/comillas-der.svg"
+      alt="comilla_derecha">
+
+  </div>
+
+  <div class="banner" #banner style="display: none;">
+    <ul class="redes-sociales">
+
+      <li>
+        <!-- Arquetipos -->
+        <a *ngIf="arquetipos" href="#" target="_blank" rel="noopener noreferrer"
+          (mouseover)="cambiarA()">
+          <img style="width: 50px;" src="assets/imagenes/iconos/arquetipos.svg"
+            alt="Link">
+        </a>
+        <a *ngIf="arquetiposColor" href="#" target="_blank"
+          rel="noopener noreferrer" (mouseout)="cambiarABlanco()">
+          <img style="width: 50px;"
+            src="assets/imagenes/iconos/arquetiposColor.svg" alt="Link">
+        </a>
+      </li>
+
+      <li style="margin-top: -2px;">
+        <!-- Email -->
+        <a *ngIf="email" href="#" (mouseover)="cambiarE()">
+          <img style="width: 40px;" src="assets/imagenes/iconos/email.svg"
+            alt="email">
+        </a>
+        <a *ngIf="emailColor" href="#" target="_blank" rel="noopener noreferrer"
+          (mouseout)="cambiarEBlanco()">
+          <img style="width: 40px;" src="assets/imagenes/iconos/emailColor.svg"
+            alt="email">
+        </a>
+      </li>
+
+      <li style="margin-top: -2px;">
+        <!-- WhatsApp -->
+        <a *ngIf="whatsapp" href="https://web.whatsapp.com/"
+          (mouseover)="cambiarW()">
+          <img style="width: 35px;" src="assets/imagenes/iconos/whatsapp.svg"
+            alt="whatsapp">
+        </a>
+        <a *ngIf="whatsappColor" href="https://web.whatsapp.com/"
+          target="_blank" rel="noopener noreferrer"
+          (mouseout)="cambiarWBlanco()">
+          <img style="width: 35px;"
+            src="assets/imagenes/iconos/whatsappColor.svg" alt>
+        </a>
+      </li>
+
+      <li>
+        <!-- Facebook -->
+        <a *ngIf="facebook"
+          href="https://www.facebook.com/SLInsightsyArquetypos"
+          (mouseover)="cambiarF()">
+          <img style="width: 35px;" src="assets/imagenes/iconos/facebook.svg"
+            alt="Facebook">
+        </a>
+        <a *ngIf="facebookColor"
+          href="https://www.facebook.com/SLInsightsyArquetypos" target="_blank"
+          rel="noopener noreferrer" (mouseout)="cambiarFBlanco()">
+          <img style="width: 35px;"
+            src="assets/imagenes/iconos/facebookColor.svg" alt="Facebook">
+        </a>
+      </li>
+
+      <li>
+        <!-- Instagram -->
+        <a *ngIf="instagram" href="https://www.instagram.com/slconsulting_i_a/"
+          target="_blank" rel="noopener noreferrer" (mouseover)="cambiarI()">
+          <img style="width: 35px;" src="assets/imagenes/iconos/instagram.svg"
+            alt="Instagram">
+        </a>
+        <a *ngIf="instagramColor"
+          href="https://www.instagram.com/slconsulting_i_a/" target="_blank"
+          rel="noopener noreferrer" (mouseout)="cambiarIBlanco()">
+          <img style="width: 35px;"
+            src="assets/imagenes/iconos/instagramColor.svg" alt="Instagram">
+        </a>
+      </li>
+
+      <li>
+        <!-- LinkedIn -->
+        <a *ngIf="link" href="#" target="_blank" (mouseover)="cambiarL()">
+          <img style="width: 35px;" src="assets/imagenes/iconos/link.svg"
+            alt="Link">
+        </a>
+        <a *ngIf="linkColor"
+          href="https://www.linkedin.com/company/sl-insights-arquetypos"
+          target="_blank" rel="noopener noreferrer"
+          (mouseout)="cambiarLBlanco()">
+          <img style="width: 35px;" src="assets/imagenes/iconos/linkColor.svg"
+            alt="Link">
+        </a>
+      </li>
+
+      <!-- Añade más iconos de redes sociales si lo deseas -->
+    </ul>
+  </div>
+
+  <div class="mapa-container">
+
+    <div class="col-md-1"></div>
+
+    <div class="col-md-12"
+      style="background-color: #F9F9F9; width: 100%;">
+      <div class
+        style="background-color: #F9F9F9; display: flex; justify-content: center; align-items: center; width: 100%;">
+        <!-- Utilizamos la clase 'border-0' para eliminar el borde y el fondo de la tarjeta -->
+
+        <img loading="lazy" class="mago" src="assets/videos/myg3.gif"
+          id="gifMago" alt="Mi GIF">
+        <!-- boton Mago-->
+
+        <button data-aos="zoom-in-up"
+          class="btn custom-button10 hablemos"><strong>Hablemos</strong></button>
+
+      </div>
+    </div>
+
+    <div class="col-md-1"></div>
+
+  </div>
+
+  
+  <div class="row" style="display: flex; justify-content: center; align-content: center; background-color: #ffffff;">
+
+    <div class="container" style="background-color: #ffffff; border: 2px solid rgba(255, 0, 0, 0);">
+
+      <br>
+      <br>
+      <!-- Primera fila -->
+      <div data-aos="fade-up" class="row justify-content-center align-content-center" style="background-color: #ffffff; gap: 5%;">
+        <div class="card custom-card border-0" style="background-color: #ffffff; text-align: center;">
+          <!-- Aca va el titulo Somos reemplazando el ID de la imagen-->
+          <p class="textSomos" style="font-size: 32px; color: black; font-family: Century Gothic; font-weight: bold; line-height: 1;">SOMOS</p>
+        </div>
+      </div>
+      <br>
+      <br>
+
+
+      <div class="normal">
+        <!-- Segunda fila ( Desde aca comienzan los divs de las cards ) -->
+        <div  class="row justify-content-center align-content-center" style="margin-top: 0px; gap: 5%;">
+
+          <div data-aos="fade-up" class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; border: 2px solid rgba(0, 128, 0, 0); display: flex; justify-content: center; align-content: center;">
+            
+            <div class="custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fd.png'); background-size: cover; height: 265px; width: 85%; overflow: hidden; transition: all 1s ease;" id="card_plan_1">
+            
+              <div class="container card-overlay" (mousemove)="onMouseMovePerpis($event)" (mouseleave)="resetImagePositionPerpis()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  
+                <img data-aos="zoom-out" data-aos-duration="3000" #followImagePerpis src="assets/imagenes/imaFichas/perpis.svg" alt="Nueva Imagen" style="position: relative; object-fit: cover; height: 100%; width: 100%;">
+              
+              </div>
+            </div>
+  
+          </div>
+  
+          <div data-aos="fade-up" class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; border: 2px solid rgba(0, 128, 0, 0); display: flex; justify-content: center; align-content: center;">
+            <div class="custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fd.png'); background-size: cover; height: 265px; width: 85%; overflow: hidden;" id="card_plan_1">
+              
+              <div class="container card-overlay" (mousemove)="onMouseMoveDina($event)" (mouseleave)="resetImagePositionDina()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                <img data-aos="zoom-out" data-aos-duration="3000" #followImageDina src="assets/imagenes/imaFichas/dina.svg" alt="Nueva Imagen" style="position: relative; object-fit: cover; width: 130%; height: 100%;">
+              </div>
+              
+            </div>
+          </div>
+          
+  
+  
+          <div data-aos="fade-up" class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; border: 2px solid rgba(0, 128, 0, 0); display: flex; justify-content: center; align-content: center;">
+            <div class="custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fd.png'); background-size: cover; height: 265px; width: 85%; overflow: hidden;" id="card_plan_1">
+  
+  
+              <div class="container card-overlay" (mousemove)="onMouseMoveCrea($event)" (mouseleave)="resetImagePositionCrea()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+              
+                <img data-aos="zoom-out" data-aos-duration="3000" #followImageCrea src="assets/imagenes/imaFichas/creaa.svg" alt="Nueva Imagen" style="position: relative; object-fit: cover; margin-top: 8px; width: 100%; height: 100%">
+              
+              </div>
+  
+            </div>
+  
+          </div>
+        </div>
+  
+     
+  
+        <div class="row justify-content-center align-content-center" style="margin-top: -25px; gap: 5%;">
+  
+          <div class="col-md-3" style="text-align: center;">
+  
+            <img src="assets/imagenes/imaFichas/bola.svg" alt="Bola" style="height: 45px; margin-top: 3px; margin-left: 5px; position: absolute;">
+  
+            <strong><span style=" font-size: 25px; font-family: Century Gothic; top: 5px; margin-left: 35px; position: relative;">Perspicaces</span></strong>
+          
+            <img style="width: 20px; margin-left: 10px; cursor: pointer;" (click)="displayPerpis()" [src]="flechaCerrada" alt="">
+        </div>
+  
+  
+          <div class="col-md-3" style="text-align: center;">
+  
+            <img src="assets/imagenes/imaFichas/bola.svg" alt="Bola" style="height: 45px; margin-top: 5px;  margin-left: 5px; position: absolute;">
+  
+            <strong><span style="font-size: 25px; font-family: Century Gothic; top: 5px; margin-left: 35px; position: relative;">Dinámicos</span></strong>
+  
+            <img style="width: 20px; margin-left: 10px; cursor: pointer;" (click)="displayDina()" [src]="flechaCerradaDina" alt="">
+      
+          </div>
+  
+          <div class="col-md-3" style="text-align: center;">
+  
+            <img src="assets/imagenes/imaFichas/bola.svg" alt="Bola" style="height: 45px; margin-top: 5px; margin-left: 5px; position: absolute;">
+  
+            <strong><span style="font-size: 25px; font-family: Century Gothic; top: 5px; margin-left: 30px; position: relative;">Creativos</span></strong>
+  
+            <img style="width: 20px; margin-left: 10px; cursor: pointer;" (click)="displayCrea()" [src]="flechaCerradaCrea" alt="">
+      
+          </div>
+  
+        </div>
+  
+        <br>
+  
+        <div class="row justify-content-center align-content-center" style="margin-top: 5px; gap: 5%;">
+  
+          <div class="col-md-3" style="text-align: center; padding-left: 50px; padding-right: 8.5px;">
+            <div class="perpis" #perpis style="display: none;">
+              <p
+                style="font-size: 18px; font-family: 'Arial Nova', Arial, sans-serif; line-height: 1.2; text-align: left;"><strong style="font-size: 22px; font-weight: bold;">¡Vemos más allá de lo evidente!</strong><br><br> 
+                Percibimos los detalles y
+                las sutilezas que pasan
+                desapercibidos a los ojos
+                de muchos. Analizamos
+                para comprender
+                situaciones de manera
+                rápida y profunda.
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-md-3"
+            style="text-align: center; padding-left: 55px; padding-right: 30px;">
+            <div #dina style="display: none;">
+              <p style="font-size: 18px; font-family: 'Arial Nova', Arial, sans-serif; line-height: 1.2; text-align: left;"><strong style="font-size: 22px; font-weight: bold;">¡No nos quedamos quietos!</strong><br><br> 
+                Las herramientas que componen nuestro modelo están
+                en un constante proceso de evolución y adaptación.
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-md-3"
+            style="text-align: center; padding-left: 65px; padding-right: 10px;">
+            <div #crea style="display: none;">
+              <p
+                style="font-size: 18px; font-family: 'Arial Nova', Arial, sans-serif; line-height: 1.2; text-align: left;"><strong style="font-size: 22px; font-weight: bold;">¡Somos Originales!</strong><br><br> 
+                Vamos más allá del status quo
+                y construimos desde la diferencia.
+              </p>
+            </div>
+          </div>
+  
+        </div>
+  
+        <br><br>
+  
+        <div data-aos="fade-up" class="row justify-content-center align-content-center" style="margin-top: 0px; gap: 5%;">
+  
+          <div class="col-md-2"></div>
+  
+          <div class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; border: 2px solid rgba(0, 128, 0, 0); display: flex; justify-content: center; align-content: center;">
+            <div class="card plan custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fd.png'); background-size: cover; height: 265px; width: 85%; overflow: hidden;" id="card_plan_1">
+  
+              <div class="container card-overlay" (mousemove)="onMouseMoveArri($event)" (mouseleave)="resetImagePositionArri()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                <img data-aos="zoom-out" data-aos-duration="3000" #followImageArri src="assets/imagenes/imaFichas/arri.svg" alt="Nueva Imagen" style="position: relative; object-fit: cover; width: 100%; height: 100%;">
+              </div>
+  
+            </div>
+          </div>
+  
+          
+          <div data-aos="fade-up" class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; border: 2px solid rgba(0, 128, 0, 0); display: flex; justify-content: center; align-content: center;">
+            <div class="card plan custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fd.png'); background-size: cover; height: 265px; width: 85%; overflow: hidden;" id="card_plan_1">
+              
+              <div class="container card-overlay" (mousemove)="onMouseMoveProvo($event)" (mouseleave)="resetImagePositionProvo()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                <img data-aos="zoom-out" data-aos-duration="3000" #followImageProvo src="assets/imagenes/imaFichas/provo.svg" alt="Nueva Imagen" style="position: relative; object-fit: cover; width: 100%; height: 100%; ">
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-2"></div>
+  
+        </div>
+  
+        <div class="row justify-content-center align-content-center" style="margin-top: -30px; gap: 5%;"> 
+  
+          <div class="col-md-2"></div>
+  
+          <div class="col-md-3" style="text-align: center;">
+  
+            <img src="assets/imagenes/imaFichas/bola.svg" alt="Bola" style="height: 45px; margin-top: 3px; margin-left: 5px; position: absolute;">
+  
+            <strong><span
+                style=" font-size: 25px; font-family: Century Gothic; top: 5px; margin-left: 35px; position: relative;">Arriesgados</span></strong>
+  
+            <img style="width: 20px; margin-left: 10px; cursor: pointer;" (click)="displayArriesga()" [src]="flechaCerradaArriesga" alt="">
+  
+          </div>
+  
+          <div class="col-md-3" style="text-align: center;">
+  
+            <img src="assets/imagenes/imaFichas/bola.svg" alt="Bola" style="height: 45px; margin-top: 3px; margin-left: 5px; position: absolute;">
+  
+            <strong><span style=" font-size: 25px; font-family: Century Gothic; top: 5px; margin-left: 35px; position: relative;">Provocadores</span></strong>
+            <img style="width: 20px; margin-left: 10px; cursor: pointer;" (click)="displayProvo()" [src]="flechaCerradaProvo" alt="">
+  
+          </div>
+  
+          <div class="col-md-2"></div>
+  
+        </div>
+  
+        <br>
+  
+        <div class="row justify-content-center align-content-center" style="margin-top: 5px; gap: 5%;">
+  
+          <div class="col-md-2"></div>
+  
+          <div class="col-md-3" style="text-align: center; padding-left: 55px; padding-right: 25px;">
+            <div #arriesga style="display: none;">
+              <p style="font-size: 18px; font-family: 'Arial Nova', Arial, sans-serif; line-height: 1.2; text-align: left;"><strong style="font-size: 22px; font-weight: bold;">¡Somos Valientes!</strong><br><br> 
+                Exploramos caminos desconocidos para entregarles
+                a nuestros clientes soluciones eficaces que responden
+                a las cambiantes demandas del mercado.
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-md-3" style="text-align: center; padding-left: 33px; padding-right: 15px;">
+            <div #provo style="display: none;">
+              <p style="font-size: 18px; font-family: 'Arial Nova', Arial, sans-serif; line-height: 1.2; text-align: left;"><strong style="font-size: 22px; font-weight: bold;">¡Rompemos las barreras!</strong><br><br>
+                Estimulamos el pensamiento crítico y si es necesario detonamos
+                coversaciones incomodas para fomentar el cambio, construyendo
+                ambientes de trabajo más dinámicos e influyentes.
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-md-2"></div>
+  
+        </div>
+      </div>
+
+      <br><br>
+
+    <div class="responsive">
+      <!-- VERSION RESPONSIVE -->
+      <!-- Segunda fila ( Desde aca comienzan los divs de las cards ) -->
+      <div class="row justify-content-center align-content-center" style="margin-top: 0px; gap: 5%;">
+
+        <div data-aos="fade-up" class="col-md-3 arrib" style="padding-top: 15px; padding-bottom: 50px; border: 2px solid rgba(0, 128, 0, 0); display: flex; justify-content: center; align-content: center;">
+          <div class="custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fd.png'); background-size: cover; height: 265px; width: 85%; overflow: hidden; transition: all 1s ease;" id="card_plan_1">
+          
+            <div class="container card-overlay" (mousemove)="onMouseMovePerpis($event)" (mouseleave)="resetImagePositionPerpis()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+
+              <img data-aos="zoom-out" data-aos-duration="3000" #followImagePerpis src="assets/imagenes/imaFichas/perpis.svg" alt="Nueva Imagen" style="position: relative; object-fit: cover; height: 100%; width: 100%;">
+            
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center align-content-center" style="margin-top: -25px; gap: 5%;">
+        <div class="col-md-3" style="text-align: center;">
+            <img src="assets/imagenes/imaFichas/bola.svg" alt="Bola" style="height: 45px; margin-top: 3px; margin-left: 5px; position: absolute;">
+            <strong><span style=" font-size: 25px; font-family: Century Gothic; top: 5px; margin-left: 35px; position: relative;">Perspicaces</span></strong>
+            <img style="width: 20px; margin-left: 10px; cursor: pointer;" (click)="displayPerpisM()" [src]="flechaCerrada" alt="">
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row justify-content-center align-content-center" style="margin-top: 5px; gap: 5%;">
+        <div class="col-md-3" style="text-align: center; padding-left: 50px; padding-right: 8.5px;">
+          <div class="perpis" #perpisM style="display: none;">
+            <p
+              style="font-size: 18px; font-family: 'Arial Nova', Arial, sans-serif; line-height: 1.2; text-align: left;"><strong style="font-size: 22px; font-weight: bold;">¡Vemos más allá de lo evidente!</strong><br><br> 
+              Percibimos los detalles y
+              las sutilezas que pasan
+              desapercibidos a los ojos
+              de muchos. Analizamos
+              para comprender
+              situaciones de manera
+              rápida y profunda.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center align-content-center" style="margin-top: 0px; gap: 5%;">
+        <div data-aos="fade-up" class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; border: 2px solid rgba(0, 128, 0, 0); display: flex; justify-content: center; align-content: center;">
+          <div class="custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fd.png'); background-size: cover; height: 265px; width: 85%; overflow: hidden;" id="card_plan_1">
+            
+            <div class="container card-overlay" (mousemove)="onMouseMoveDina($event)" (mouseleave)="resetImagePositionDina()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+              <img data-aos="zoom-out" data-aos-duration="3000" #followImageDina src="assets/imagenes/imaFichas/dina.svg" alt="Nueva Imagen" style="position: relative; object-fit: cover; width: 130%; height: 100%;">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center align-content-center" style="margin-top: -25px; gap: 5%;">
+        <div class="col-md-3" style="text-align: center;">
+          <img src="assets/imagenes/imaFichas/bola.svg" alt="Bola" style="height: 45px; margin-top: 5px;  margin-left: 5px; position: absolute;">
+          <strong><span style="font-size: 25px; font-family: Century Gothic; top: 5px; margin-left: 35px; position: relative;">Dinámicos</span></strong>
+          <img style="width: 20px; margin-left: 10px; cursor: pointer;" (click)="displayDinaM()" [src]="flechaCerradaDina" alt="">
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row justify-content-center align-content-center" style="margin-top: 5px; gap: 5%;">
+        <div class="col-md-3" style="text-align: center; padding-left: 55px; padding-right: 30px;">
+        <div #dinaM style="display: none;">
+          <p style="font-size: 18px; font-family: 'Arial Nova', Arial, sans-serif; line-height: 1.2; text-align: left;"><strong style="font-size: 22px; font-weight: bold;">¡No nos quedamos quietos!</strong><br><br> 
+            Las herramientas que componen nuestro modelo están
+            en un constante proceso de evolución y adaptación.
+          </p>
+        </div>
+      </div>
+      </div>
+
+      <div class="row justify-content-center align-content-center" style="margin-top: 0px; gap: 5%;">
+        <div data-aos="fade-up" class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; border: 2px solid rgba(0, 128, 0, 0); display: flex; justify-content: center; align-content: center;">
+          <div class="custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fd.png'); background-size: cover; height: 265px; width: 85%; overflow: hidden;" id="card_plan_1">
+            <div class="container card-overlay" (mousemove)="onMouseMoveCrea($event)" (mouseleave)="resetImagePositionCrea()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+              <img data-aos="zoom-out" data-aos-duration="3000" #followImageCrea src="assets/imagenes/imaFichas/creaa.svg" alt="Nueva Imagen" style="position: relative; object-fit: cover; margin-top: 8px; width: 100%; height: 100%">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center align-content-center" style="margin-top: -25px; gap: 5%;">
+        <div class="col-md-3" style="text-align: center;">
+          <img src="assets/imagenes/imaFichas/bola.svg" alt="Bola" style="height: 45px; margin-top: 5px; margin-left: 5px; position: absolute;">
+          <strong><span style="font-size: 25px; font-family: Century Gothic; top: 5px; margin-left: 30px; position: relative;">Creativos</span></strong>
+          <img style="width: 20px; margin-left: 10px; cursor: pointer;" (click)="displayCreaM()" [src]="flechaCerradaCrea" alt="">
+        </div>
+      </div>
+      
+      <br>
+
+      <div class="row justify-content-center align-content-center" style="margin-top: 5px; gap: 5%;">
+        <div class="col-md-3"
+        style="text-align: center; padding-left: 65px; padding-right: 10px;">
+        <div #creaM style="display: none;">
+          <p style="font-size: 18px; font-family: 'Arial Nova', Arial, sans-serif; line-height: 1.2; text-align: left;"><strong style="font-size: 22px; font-weight: bold;">¡Somos Originales!</strong><br><br> 
+            Vamos más allá del status quo
+            y construimos desde la diferencia.
+          </p>
+        </div>
+      </div>
+      </div>
+
+      <br>
+
+      <div data-aos="fade-up" class="row justify-content-center align-content-center" style="margin-top: 0px; gap: 5%;">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; border: 2px solid rgba(0, 128, 0, 0); display: flex; justify-content: center; align-content: center;">
+          <div class="card plan custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fd.png'); background-size: cover; height: 265px; width: 85%; overflow: hidden;" id="card_plan_1">
+            <div class="container card-overlay" (mousemove)="onMouseMoveArri($event)" (mouseleave)="resetImagePositionArri()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+              <img data-aos="zoom-out" data-aos-duration="3000" #followImageArri src="assets/imagenes/imaFichas/arri.svg" alt="Nueva Imagen" style="position: relative; object-fit: cover; width: 100%; height: 100%;">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2"></div>
+      </div>
+
+      <div class="row justify-content-center align-content-center" style="margin-top: -30px; gap: 5%;"> 
+        <div class="col-md-2"></div>
+
+        <div class="col-md-3" style="text-align: center;">
+          <img src="assets/imagenes/imaFichas/bola.svg" alt="Bola" style="height: 45px; margin-top: 3px; margin-left: 5px; position: absolute;">
+          <strong><span style=" font-size: 25px; font-family: Century Gothic; top: 5px; margin-left: 35px; position: relative;">Arriesgados</span></strong>
+          <img style="width: 20px; margin-left: 10px; cursor: pointer;" (click)="displayArriesgaM()" [src]="flechaCerradaArriesga" alt="">
+        </div>
+
+        <div class="col-md-2"></div>
+      </div>
+
+      <br>
+
+      <div class="row justify-content-center align-content-center" style="margin-top: 5px; gap: 5%; ">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-3" style="text-align: center; padding-left: 55px; padding-right: 25px;">
+          <div #arriesgaM style="display: none;">
+            <p style="font-size: 18px; font-family: 'Arial Nova', Arial, sans-serif; line-height: 1.2; text-align: left;"><strong style="font-size: 22px; font-weight: bold;">¡Somos Valientes!</strong><br><br> 
+              Exploramos caminos desconocidos para entregarles
+              a nuestros clientes soluciones eficaces que responden
+              a las cambiantes demandas del mercado.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2"></div>
+      </div>
+
+      <br>
+
+      <div data-aos="fade-up" class="row justify-content-center align-content-center" style="margin-top: 0px; gap: 5%;">
+        <div class="col-md-2"></div>
+
+        <div data-aos="fade-up" class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; border: 2px solid rgba(0, 128, 0, 0); display: flex; justify-content: center; align-content: center;">
+          <div class="card plan custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fd.png'); background-size: cover; height: 265px; width: 85%; overflow: hidden;" id="card_plan_1">
+            
+            <div class="container card-overlay" (mousemove)="onMouseMoveProvo($event)" (mouseleave)="resetImagePositionProvo()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+              <img data-aos="zoom-out" data-aos-duration="3000" #followImageProvo src="assets/imagenes/imaFichas/provo.svg" alt="Nueva Imagen" style="position: relative; object-fit: cover; width: 100%; height: 100%; ">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2"></div>
+      </div>
+
+
+      <div class="row justify-content-center align-content-center" style="margin-top: -30px; gap: 5%;"> 
+        <div class="col-md-2"></div>
+
+        <div class="col-md-3" style="text-align: center;">
+          <img src="assets/imagenes/imaFichas/bola.svg" alt="Bola" style="height: 45px; margin-top: 3px; margin-left: 5px; position: absolute;">
+          <strong><span style=" font-size: 25px; font-family: Century Gothic; top: 5px; margin-left: 35px; position: relative;">Provocadores</span></strong>
+          <img style="width: 20px; margin-left: 10px; cursor: pointer;" (click)="displayProvoM()" [src]="flechaCerradaProvo" alt="">
+        </div>
+
+        <div class="col-md-2"></div>
+      </div>
+
+      <br>
+
+      <div class="row justify-content-center align-content-center" style="margin-top: 5px; gap: 5%; ">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-3" style="text-align: center; padding-left: 33px; padding-right: 15px;">
+          <div #provoM style="display: none;">
+            <p style="font-size: 18px; font-family: 'Arial Nova', Arial, sans-serif; line-height: 1.2; text-align: left;"><strong style="font-size: 22px; font-weight: bold;">¡Rompemos las barreras!</strong><br><br>
+              Estimulamos el pensamiento crítico y si es necesario detonamos
+              coversaciones incomodas para fomentar el cambio, construyendo
+              ambientes de trabajo más dinámicos e influyentes.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <!-- ESTE ES EL CONTAINER DE NOS BASAMOS -->
+  <div class="mapa-container basamos" style="margin-top: 0px;">
+
+    <div class="row" style="margin-bottom: 0px;">
+
+      <div class="container-fluid" style="background-color: transparent;">
+        <!-- Primera fila -->
+        <div class="row">
+          <!-- Este div no modificar el color-->
+          <div class="justify-content-center"
+            style="background-color: transparent;">
+
+            <img class="nosBasa" data-aos="zoom-in" data-aos-duration="2000" loading="lazy"
+              style="width: 100%; background-color: transparent;"
+              src="assets/videos/nb.gif" alt="Mi GIF">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Carrusel -->
+    <div class="row carrusel-container">
+      <div class="container">
+        <strong>
+          <div class="texto-wrapper">
+            <p class="texto">
+              <span> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span>
+              <span> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span>
+              <span> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span>
+              <span> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span>
+              <span> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span>
+            </p>
+            <p class="texto">
+              <span>INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span>
+              <span> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span>
+              <span> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span>
+              <span> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span>
+              <span> INSIGHTS Y ARQUETIPOS SON UNA DUPLA DE ALTO VALOR </span>
+            </p>
+          </div>
+        </strong>
+      </div>
+    </div>
+
+    <div class="secCabeza" style="background-color: #ffffff; width: 100%; ">
+
+      <div class="col-md-12">
+
+        <div class="row colm" style="background-color: #39c02700; margin-left: 0; padding-top: 50px; padding-bottom: 0px; padding-left: 150px; padding-right: 0px;">
+
+          <div class="col-md-5 contLosIns" style=" border: 2px solid rgba(230, 37, 230, 0);">
+
+            <div class="rar" style="margin-left: 140px; margin-top: 80px;">
+              <a href="TU_PAGINA_DE_DESTINO1.html">
+                <img class="bolaClick" loading="lazy" src="assets/imagenes/bolas3/bolaclick.svg"
+                  alt="Bola" alt="Bola"
+                  style="height: 85px; margin-top: -39px; margin-left: -140px; position: absolute;">
+              </a>
+              <p class="texto2 animate-text losIns"
+                style="font-size: 34px; color: black; font-family: 'Century Gothic'; text-align: left; line-height:1; margin-left: -90px;">"<strong>Los
+                  insights</strong> reflejan
+                <br>la trama de cada<br>historia y los<br>
+                <strong>arquetipos</strong> son los<br> personajes que le<br>
+                dan vida a esas<br>historias".</p>
+              <a href="TU_PAGINA_DE_DESTINO.html"
+                style="text-decoration: none;">
+                <button class="btn custom-button10 hablemosIns"
+                  style="font-size: 22px; margin-left: -90px; padding-top: 5px; padding-bottom: 5px; margin-top: 25%; margin-bottom: 80px; padding-left: 50px; padding-right: 50px; font-family: Century Gothic; cursor: pointer;">
+                  <strong>Hablemos</strong>
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 cabeza" style="border: 0;">
+            <img class="imgCabe" style="width: 100%; height: auto; position: absolute;"
+              loading="lazy" src="assets\videos\cere.gif" alt="Mi GIF">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="mapa-container10" style="background-image: url('/assets/imagenes/Puente/PugFinal.svg'); background-color: #ffffff; background-size: cover; background-position: center; height: 1800px; padding-top: 800px; padding-bottom: -5000px; border: none; border-style:none;">
+
+    <div class="row" >
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+
+        <a href="TU_PAGINA_DE_DESTINO5.html">
+          <img class="bolaC" loading="lazy" src="assets/imagenes/bolas3/bolaclick.svg"
+            alt="Bola" style="height: 87px; margin-top: -460px; margin-left: 88px; position: absolute; ">
+        </a>
+
+        <p class="texto2 animate-text sombratexto tituloPuente" style="font-size: 28px; color: black; font-family:'Century Gothic'; margin-left: 15px; text-align: left; line-height:1.2; color: white; margin-top: -420px; margin-right: 45px; text-align: center; display: none;" #tituloPuente> 
+          <strong class="strongP" style="font-size: 35px;">CONSTRUIMOS PUENTES EFECTIVOS</strong>
+          <br> que alinean el propósito personal o colectivo, con <br> procesos
+          que generan <strong>conciencia y permanencia</strong> en el <br>
+          tiempo.</p>
+
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+
+    <div class="row contConvenc" style="margin-top: -2px; margin-left: 60px;">
+
+      <div class="col-md-4">
+
+        <p id="mancae1" class=" animate-text"
+          style="position: absolute; width: 488%; margin-top: -1340px; margin-left: -660px;">
+        </p>
+
+        <p class="texto2 animate-text "
+          style="font-size: 28px; color: black; font-family: 'Century Gothic'; text-align: left; line-height: 1.2; color: white; border: 2px solid rgba(255, 136, 0, 0); margin-top: -7px; margin-left: -75px; text-align: left; padding-left: 75px;">
+          <strong style="font-size: 40px;">
+          <span style="background-color: #00B4B2; border: 2px solid rgba(0, 0, 255, 0); padding-left: 65px; padding-right: 8px; margin-left: -65px;">DESAFIAMOS</span>
+          LO CONVENCIONAL:</strong> <br>
+          <br> Estamos en constante <strong>cambio <br> y movimiento</strong>,
+          desarrollando <br>metodologías poderosas que<br> generan valor en toda
+          la
+          <br> cadena de negocio.</p>
+
+      </div>
+    </div>
+
+    <div class="row contConvenc2" style="margin-top: -2px; margin-left: 60px;">
+
+      <div class="col-md-4">
+
+        <p id="mancae1" class=" animate-text"
+          style="position: absolute; width: 488%; margin-top: -1340px; margin-left: -660px;">
+        </p>
+
+        <p class="texto2 animate-text convenc"
+          style="font-size: 28px; color: black; font-family: 'Century Gothic'; text-align: left; line-height: 1.2; color: white; border: 2px solid rgba(255, 136, 0, 0); margin-top: -7px; margin-left: -75px; text-align: left; padding-left: 75px;">
+          <strong class="tituloConvenc" style="font-size: 40px;">
+          <span class="tituloConvenc" style="background-color: #00B4B2; border: 2px solid rgba(0, 0, 255, 0); padding-left: 65px; padding-right: 8px; margin-left: -65px;">DESAFIAMOS</span>
+          LO CONVENCIONAL</strong>
+          <br>
+          Estamos en constante <strong>cambio y movimiento,</strong>
+          desarrollando metodologías poderosas que generan valor en toda
+          la cadena de negocio.</p>
+      </div>
+    </div>
+
+    <div class="row tituloEndToEnd" style="margin-top: 280px; margin-left: 300;">
+      <div class="col-md-2"></div>
+
+      <div class="col-md-8" style="text-align: center;">
+        <p class="end" style="font-family: 'Century Gothic'; font-size: 45px; color: white; position: relative; z-index: 2;">
+          <strong>END TO END</strong></p>
+      </div>
+
+      <div class="col-md-2"></div>
+    </div>
+
+    <div class="container-fluid contBtns" style="display: flex; justify-content: center; align-items: center;">
+      <div class="row btns" style="display: flex; justify-content: center; align-items: center; width: 95%; gap: 35px;">
+
+        <div class="col-md-3 cent">
+          <a href="#">
+            <img loading="lazy"
+              class="business"
+              src="assets/imagenes/imaFichas/BOTON BUSINESS STRATEGY.svg"
+              alt="Bola" style="width: 385px; cursor: pointer;">
+          </a>
+        </div>
+
+        <div class="col-md-4 cent">
+          <a href="TU_PAGINA_DE_DESTINO5.thtml">
+            <img loading="lazy"
+              class="discovery"
+              src="assets/imagenes/imaFichas/BOTON DISCOVERY.svg" alt="Bola"
+              style="width: 65%; margin-left: 80px; cursor: pointer;">
+          </a>
+        </div>
+
+        <div class="col-md-3 cent">
+          <a href="#">
+            <img loading="lazy"
+              class="cultura"
+              src="assets/imagenes/imaFichas/BOTON_C_XP.svg"
+              alt="Bola"
+              style="width: 385px; margin-left: -60px; cursor: pointer;">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Div con Capabilities y eso-->
+
+  <div class="mapa-container-c" style="background-color: #FFFFFF; padding-top: 20px; padding-bottom: 20px; margin-top: -0px;">
+
+    <div class="container capabilities" style="width: 100%; margin-top: -95px;">
+
+      <div data-aos="fade-right" data-aos-duration="3000" class="row" style="margin-bottom: -70px; display: flex; justify-content: center; align-items: center;">
+
+        <div class="col-md-8">
+          <p style="font-family: 'Arial Nova', Arial, sans-serif; font-size: 26px; text-align: right; margin-left: 0px; color: #000000; display: none; line-height: 1.5;" class="animate-text creamos" #flechasAnal>
+            <strong>
+              <span>Creamos modelos</span></strong> de trabajo diferentes y <br>
+            customizados a las <strong>necesidades de la organización,</strong>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="bolCreamos" style="width: 95%; margin-left: -60px; margin-top: -10px;"
+            src="assets/imagenes/bolas3/flechas.svg" alt="Mi GIF">
+        </div>
+      </div>
+
+      <div data-aos="fade-left" data-aos-duration="3000" class="row"
+        style="margin-top: -50px; display: flex; justify-content: center; align-items: center;">
+        <div class="col-md-4">
+          <img class="bolCombinando" loading="lazy" style="width: 75%; margin-top: -75px; margin-left: 90px;"
+            src="assets/imagenes/bolas3/ojoanal.svg" alt="Mi GIF">
+        </div>
+        <div class="col-md-8">
+          <p
+            style="font-family: 'Arial Nova', Arial, sans-serif; font-size: 26px; color: black; display: none; line-height: 1;"
+            class="animate-text combinando" #ojoAnal>combinando la <strong><span>visión
+                humana,</span></strong> las <span>capacidades<br> de
+              <strong>análisis e integración</strong> de data,</span></p>
+        </div>
+      </div>
+      <br>
+
+      <div data-aos="fade-right" data-aos-duration="3000" class="row"
+        style="margin-top: -90px; display: flex; justify-content: center; align-items: center; ">
+        <div class="col-md-8">
+          <p
+            style="text-align: right; font-family: 'Arial Nova', Arial, sans-serif; font-size: 26px; margin-left: 22px; margin-top: 70px; color: black; display: none; line-height: 1.2;"
+            class="animate-text estrategico" #manoTuerca>con un pensamiento
+            <strong>estrategico y profundo </strong> para
+            <strong><span>evolucionar los negocios</span></strong> y fortalecer
+            la sociedad <br> en general.</p>
+        </div>
+        <div class="col-md-4">
+          <img class="bolaEstrategico" loading="lazy"
+            style="width: 75%; margin-top: -30px; margin-left: -35px;"
+            src="assets/imagenes/bolas3/manotuerco.svg" alt="Mi GIF">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--Div Mapa -->
+
+  <div class="mapa-container mapa" style="background-color: #ffffff;">
+
+    <!-- Imagen del mapa-->
+
+    <img loading="lazy"
+      class="personasMapa"
+      style="width: 30%; background-color: transparent; position: absolute; margin-left: -15px; border: 2px solid rgba(0, 0, 255, 0); margin-top: 350px;"
+      src="assets/imagenes/bolas3/personasmapa.gif" alt="Mi GIF">
+
+    <div class="container ocultc">
+      <div class="row">
+        <div class="col-md-12">
+          <img loading="lazy" style="width: 900px; margin-left: 250px;"
+            src="assets/imagenes/mapa.svg" alt="Invisible">
+        </div>
+      </div>
+    </div>
+
+    <div class="container visble">
+      <img loading="lazy" style="width: 900px; margin-left: 250px;"
+      class="mapaImg" src="assets/imagenes/mapa.svg" alt="Invisible">
+    </div>
+
+    <div class="texto-superpuesto3 row two">
+
+      <div class="col-md-5"></div>
+
+      <div class="col-md-4">
+        <div data-aos="fade-right" data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+          <p
+            style="font-family: Century Gothic; line-height: 1; font-size: 39px; color: rgb(63, 62, 62); text-align: left; margin-top: -415px; margin-left: -120px;"
+            class="texto2 est"><strong>ESTAMOS</strong></p>
+        </div>
+
+        <div data-aos="fade-right" data-aos-offset="300"
+          data-aos-easing="ease-in-sine" data-aos-delay="200">
+          <p
+            style="font-family: Century Gothic; line-height: 1; font-size: 39px; color: rgb(63, 62, 62); text-align: left; margin-top: 0px; margin-left: -120px;"
+            class="texto2 dej"><strong>DEJANDO</strong></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="texto-superpuesto3 row divHuella">
+
+      <div class="col-md-12">
+        <div data-aos="fade-right" data-aos-offset="400"
+          data-aos-easing="ease-in-sine">
+          <p
+            style="line-height: 1; font-family: Century Gothic; letter-spacing: 2px; font-size: 45px; color: rgb(63, 62, 62); text-align: left; margin-top: -330px; margin-left: -400px; background-color: #393F79; color: white; padding-top: 5px; padding-bottom: 5px; padding-right: 19px; padding-left: 59px;"
+            class="texto2 huella"><strong>HUELLA EN LATAM</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="texto-superpuesto3 row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-8 divBtnMapa">
+        <div data-aos="zoom-in"> <p
+            style="line-height: 1.4; font-family: Century Gothic; font-size: 23px; color: rgb(63, 62, 62); text-align: left; margin-top: -270px; margin-left: -400px;"
+            class="texto2 hemosImp">Hemos impactado organizaciones,<br> marcas a lo largo
+            de nuestra región,<br>alineando <strong>el talento y las
+              habilidades</strong><br> de las personas a favor de los
+            <strong>retos y<br> metas </strong>de los negocios.</p> </div>
+        <button class="btn custom-button10 btnMapa"
+          style="position: absolute; font-size: 20px; margin-left: -380px; margin-top: 15px; padding-top: 5px; padding-bottom: 5px; padding-left: 40px; padding-right: 40px; font-family: Century Gothic; cursor: pointer;"
+          data-aos="zoom-in-up"><strong>Hablemos</strong></button>
+      </div>
+    </div>
+  </div>
+
+<div class="normalQuienes">
+  <!-- Seccion quienes lo hacen posible -->
+  <div class="row contQuienes" style="display: flex; justify-content: center; align-content: center; background-color: #ffffff; padding-top: 85px;">
+
+    <div class="container" style="background-color: #ffffff;">
+
+      <div data-aos="fade-up" class="row"
+        style="margin-top: 0px; margin-top: 35px; background-color: #ffffff;">
+        <div class="col-md-12" style="display: flex; justify-content: center; align-items: center; text-align: center; background-color: #ffffff;">
+            <p class="titleQuienes" style="font-size: 35px; padding-left: 30px; padding-right: 30px; font-family: Century Gothic;">
+              <strong>QUIENES LO HACEN POSIBLE</strong>
+            </p>
+          <br>
+        </div>
+      </div>
+
+      <div data-aos="fade-up" class="row" style="background-color: #ffffff;">
+        <div class="col-md-12" style="text-align: center; padding: 20px;">
+          <p class="pQuienes" style="font-size: 24px; font-family: Century Gothic; line-height: 1.2; font-family: 'Arial Nova', Arial, sans-serif;;">Ante
+            todo personas que comparten un mismo propósito,<strong class="pQuienes" style="font-size: 25px;"> arriesgadas, <br> creativas, profundas y
+              soñadoras.
+            </strong> Lo bueno de <strong class="pQuienes" style="font-size: 25px;">SL Consulting
+            </strong>es<br> su gente, quienes impregnan pasión y dedicación en
+            cada proyecto.</p>
+        </div>
+      </div>
+
+      <!-- Segunda fila ( Desde aca comienzan los divs de las cards ) -->
+      <div class="row justify-content-center align-content-center"
+        style="margin-top: 0px; gap: 8%;">
+
+        <div data-aos="fade-up" class="col-md-3"
+          style="padding-top: 15px; padding-bottom: 50px; display: flex; justify-content: center; align-content: center;">
+          <div class="card plan custom-card cartas text-center"
+            style="background-image: url('/assets/imagenes/imaFichas/fondoCardsDos.svg'); background-size: cover; height: 265px; width: 85%; overflow: hidden;"
+            id="card_plan_1">
+
+            <div class="container card-overlay"
+              (mousemove)="onMouseMoveCompre($event)"
+              (mouseleave)="resetImagePositionCompre()"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+              <!-- <p id="activacion" style="position: absolute; width: 575px; margin-top: 0px; margin-left : -192.5px;"> </p> -->
+
+              <img data-aos="zoom-out" data-aos-duration="3000"
+                #followImageCompre
+                src="assets/imagenes/cards/COMPRENSION-HUMANA-8.png"
+                style="position: relative; object-fit: cover; height: 105%; width: 105%; bottom: -9px; left: -20px;"
+                alt="Nueva Imagen">
+            </div>
+
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="col-md-3"
+          style="padding-top: 15px; padding-bottom: 50px; display: flex; justify-content: center; align-content: center;">
+          <div class="card plan custom-card cartas text-center"
+            style="background-image: url('/assets/imagenes/imaFichas/fondoCardsDos.svg'); background-size: cover; height: 265px; width: 85%; overflow: hidden;"
+            id="card_plan_1">
+
+            <div class="container card-overlay"
+              (mousemove)="onMouseMoveDis($event)"
+              (mouseleave)="resetImagePositionDis()"
+              style="position: relative; object-fit: cover; width: 100%; height: 100%;">
+
+              <!-- <p id="comprension" style="border: 2px solid rgb(102, 255, 0); position: relative; width: 100%; height: 100%;"> </p> -->
+
+              <img data-aos="zoom-out" data-aos-duration="3000" #followImageDis
+                src="assets/imagenes/cards/CREATIVIDAD-8.png"
+                style="position: relative; object-fit: cover; height: 105%; width: 105%; left: -30px; bottom: -3px;"
+                alt="Nueva Imagen">
+            </div>
+
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="col-md-3"
+          style="padding-top: 15px; padding-bottom: 50px; display: flex; justify-content: center; align-content: center;">
+          <div class="custom-card cartas text-center"
+            style="background-image: url('/assets/imagenes/imaFichas/fondoCardsDos.svg'); background-size: cover; height: 265px; width: 85%; overflow: hidden;"
+            id="card_plan_1">
+
+            <div class="container card-overlay"
+              (mousemove)="onMouseMoveAct($event)"
+              (mouseleave)="resetImagePositionAct()"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+              <!-- <p id="creatividad" style="position: absolute; width: 455px; margin-top: -150px; margin-left : -150px;"> </p> -->
+
+              <img data-aos="zoom-out" data-aos-duration="3000" #followImageAct
+                src="assets/imagenes/cards/ACTIVACION-8.png"
+                style="position: relative; object-fit: cover; height: 140%; width: 135%; left: -4px; bottom: -2px;"
+                alt="Nueva Imagen">
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 3 textos de equipos -->
+      <div class="row justify-content-center align-content-center"
+        style="margin-top: -25px; gap: 8%; line-height: 1;">
+        <div class="col-md-3" style="text-align: center;">
+          <p
+            style="font-size: 22px; font-family: Century Gothic; font-weight: bold;">Expertos
+            en<br> comprensión humana</p>
+        </div>
+
+        <div class="col-md-3" style="text-align: center;">
+          <p
+            style="font-size: 22px; font-family: Century Gothic; font-weight: bold;">Expertos
+            en creatividad,<br> diseño y desarrollo</p>
+        </div>
+
+        <div class="col-md-3" style="text-align: center;">
+          <p
+            style="font-size: 22px; font-family: Century Gothic; font-weight: bold;">Expertos
+            en activación<br> estratégica</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center align-content-center"
+          style="margin-top: 20px; gap: 8%;">
+          <div class="col-md-3" style="text-align: center;">
+            <button type="button" class="btn custom-button10"
+              style="font-size: 22px; padding-left: 30px; padding-right: 30px; font-family: Century Gothic; cursor: pointer;"
+              data-toggle="modal" data-target="#exampleModalCenter"
+              (click)="abrirModal1()">Conócelos</button>
+          </div>
+          <div class="col-md-3" style="text-align: center;">
+            <button type="button" class="btn custom-button10"
+              style="font-size: 22px; padding-left: 30px; padding-right: 30px; font-family: Century Gothic; cursor: pointer;"
+              data-toggle="modal" data-target="#exampleModalCenter"
+              (click)="abrirModal2()">Conócelos</button>
+          </div>
+          <div class="col-md-3" style="text-align: center;">
+            <button type="button" class="btn custom-button10"
+              style="font-size: 22px; padding-left: 30px; padding-right: 30px; font-family: Century Gothic; cursor: pointer;"
+              data-toggle="modal" data-target="#exampleModalCenter"
+              (click)="abrirModal3()">Conócelos</button>
+          </div>
+        </div>
+
+        <app-modal></app-modal>
+      </div>
+
+      <div data-aos="fade-up"
+        class="row justify-content-center align-content-center"
+        style="margin-top: 60px; gap: 8%;">
+
+        <div class="col-md-1"></div>
+
+        <div class="col-md-3"
+          style="padding-top: 15px; padding-bottom: 50px; display: flex; justify-content: center; align-content: center;">
+          <div class="card plan custom-card cartas text-center"
+            style="padding: auto; background-image: url('/assets/imagenes/imaFichas/fondoCardsDos.svg'); background-size: cover; height: 265px; width: 85%; overflow: hidden;"
+            id="card_plan_1">
+
+            <div class="container card-overlay"
+              (mousemove)="onMouseMoveLog($event)"
+              (mouseleave)="resetImagePositionLog()"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+              <!-- <p id="logistica" style="position: absolute; width: 455px; margin-top: -150px; margin-left : -150px;"> </p> -->
+
+              <img data-aos="zoom-out" data-aos-duration="3000" #followImageLog
+                src="assets/imagenes/cards/LOGISTICA-8.png"
+                style="position: relative; object-fit: cover; height: 115%; width: 115%; left: -37px; bottom: 1.5px;"
+                alt="Nueva Imagen">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-3"
+          style="padding-top: 15px; padding-bottom: 50px; display: flex; justify-content: center; align-content: center;">
+          <div class="card plan custom-card cartas text-center"
+            style="background-image: url('/assets/imagenes/imaFichas/fondoCardsDos.svg'); background-size: cover; height: 265px; width: 85%; overflow: hidden;"
+            id="card_plan_1">
+
+            <div class="container card-overlay"
+              (mousemove)="onMouseMoveStem($event)"
+              (mouseleave)="resetImagePositionStem()"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+              <!-- <p id="steam" style="position: absolute; width: 455px; margin-top: -150px; margin-left : -150px;"> </p> -->
+
+              <img data-aos="zoom-out" data-aos-duration="3000" #followImageStem
+                src="assets/imagenes/cards/STEM-8.png"
+                style="position: relative; object-fit: cover; height: 115%; width: 115%; left: -25px; bottom: 25px;"
+                alt="Nueva Imagen">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-1"></div>
+
+      </div>
+
+      <!-- 2 textos de equipos -->
+      <div class="row justify-content-center align-content-center"
+        style="margin-top: -25px; gap: 8%; line-height: 1;">
+
+        <div class="col-md-3" style="text-align: center;">
+          <p
+            style="font-size: 22px; font-family: Century Gothic; font-weight: bold;">Expertos
+            en <br> logística y gestión <br> de proyectos</p>
+        </div>
+
+        <div class="col-md-3" style="text-align: center;">
+          <p
+            style="font-size: 22px; font-family: Century Gothic; font-weight: bold;">Expertos
+            STEM<br> (Science, Technology,<br> Engineering and Mathematics)</p>
+        </div>
+
+      </div>
+
+      <!-- 2 botones de  conocelos-->
+
+      <div class="container">
+        <div class="row justify-content-center align-content-center"
+          style="margin-top: 20px; gap: 8%;">
+
+          <div class="col-md-1"></div>
+
+          <div class="col-md-3" style="text-align: center;">
+            <button type="button" class="btn custom-button10"
+              style="font-size: 22px; padding-left: 30px; padding-right: 30px; font-family: Century Gothic; cursor: pointer;"
+              data-toggle="modal" data-target="#exampleModalCenter"
+              (click)="abrirModal4()">Conócelos</button>
+          </div>
+
+            <div class="col-md-3" style="text-align: center;">
+              <button type="button" class="btn custom-button10"
+                style="font-size: 22px; padding-left: 30px; padding-right: 30px; font-family: Century Gothic; cursor: pointer;"
+                data-toggle="modal" data-target="#exampleModalCenter"
+                (click)="abrirModal5()">Conócelos</button>
+            </div>
+
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div data-aos="fade-up"
+          style="margin-left: auto; margin-right: auto; width: 180px; height: 8px; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; background-color: #353F79;">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<!-- RESPONSIVE -->
+  <div class="responQuienes">
+    <!-- Seccion quienes lo hacen posible -->
+    <div class="row camb"  style="display: flex; justify-content: center; border : 2px solid rgba(0, 0, 255, 0) ; align-content: center; background-color: #ffffff; padding-top: 85px;">
+
+      <div class="container" style="background-color: #ffffff;">
+
+        <div data-aos="fade-up" class="row" style="margin-top: 0px; margin-top: 35px; background-color: #ffffff;">
+          <div class="col-md-12" style="display: flex; justify-content: center; align-items: center; text-align: center; background-color: #ffffff;">
+              <p class="titleQuienes" style="font-size: 35px; padding-left: 30px; padding-right: 30px; font-family: Century Gothic;">
+                <strong>QUIENES LO HACEN POSIBLE</strong>
+              </p>
+            <br>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="row" style="background-color: #ffffff;">
+          <div class="col-md-12" style="text-align: center; padding: 20px;">
+            <p class="pQuienes" style="font-size: 24px; font-family: Century Gothic; line-height: 1.2; font-family: 'Arial Nova', Arial, sans-serif;;">Ante
+              todo personas que comparten un mismo propósito,<strong class="pQuienes" style="font-size: 25px;"> arriesgadas, <br> creativas, profundas y
+                soñadoras.
+              </strong> Lo bueno de <strong class="pQuienes" style="font-size: 25px;">SL Consulting
+              </strong>es<br> su gente, quienes impregnan pasión y dedicación en
+              cada proyecto.</p>
+          </div>
+        </div>
+
+        <!-- Segunda fila ( Desde aca comienzan los divs de las cards ) -->
+
+         <!-- 1 -->
+        <div class="row justify-content-center align-content-center"  style="margin-top: 0px; gap: 8%;">
+
+          <div data-aos="fade-up" class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; display: flex; justify-content: center; align-content: center;">
+            <div class="card plan custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fondoCardsDos.svg'); background-size: cover; height: 265px; width: 85%; overflow: hidden;"mid="card_plan_1">
+
+              <div class="container card-overlay" (mousemove)="onMouseMoveCompre($event)" (mouseleave)="resetImagePositionCompre()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                <img data-aos="zoom-out" data-aos-duration="3000" #followImageCompre src="assets/imagenes/cards/COMPRENSION-HUMANA-8.png" style="position: relative; object-fit: cover; height: 105%; width: 105%; bottom: -9px; left: -20px;" alt="Nueva Imagen">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row justify-content-center align-content-center" style="margin-top: -25px; gap: 8%; line-height: 1;">
+            <div class="col-md-3" style="text-align: center;">
+              <p style="font-size: 22px; font-family: Century Gothic; font-weight: bold;">Expertos en<br> comprensión humana</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row justify-content-center align-content-center" style="margin-top: 20px; gap: 8%;">
+  
+              <div class="col-md-3" style="text-align: center;">
+                <button type="button" class="btn custom-button10" style="font-size: 22px; padding-left: 30px; padding-right: 30px; font-family: Century Gothic; cursor: pointer;" data-toggle="modal" data-target="#exampleModalCenter" (click)="abrirModal1()">Conócelos</button>
+              </div>
+  
+            </div>
+  
+            <app-modal></app-modal>
+          </div>
+
+        </div>
+
+        <br>
+
+        <!-- 2 -->
+        <div class="row justify-content-center align-content-center"  style="margin-top: 0px; gap: 8%;">
+          <div data-aos="fade-up" class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; display: flex; justify-content: center; align-content: center;">
+            <div class="card plan custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fondoCardsDos.svg'); background-size: cover; height: 265px; width: 85%; overflow: hidden;" id="card_plan_1">
+  
+              <div class="container card-overlay" (mousemove)="onMouseMoveDis($event)" (mouseleave)="resetImagePositionDis()" style="position: relative; object-fit: cover; width: 100%; height: 100%;">
+                <img data-aos="zoom-out" data-aos-duration="3000" #followImageDis src="assets/imagenes/cards/CREATIVIDAD-8.png" style="position: relative; object-fit: cover; height: 105%; width: 105%; left: -30px; bottom: -3px;" alt="Nueva Imagen">
+              </div>
+  
+            </div>
+          </div>
+
+          <div class="row justify-content-center align-content-center" style="margin-top: -25px; gap: 8%; line-height: 1;">
+            <div class="col-md-3" style="text-align: center;">
+              <p style="font-size: 22px; font-family: Century Gothic; font-weight: bold;">Expertos en creatividad,<br> diseño y desarrollo</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row justify-content-center align-content-center" style="margin-top: 20px; gap: 8%;">
+  
+              <div class="col-md-3" style="text-align: center;">
+                <button type="button" class="btn custom-button10" style="font-size: 22px; padding-left: 30px; padding-right: 30px; font-family: Century Gothic; cursor: pointer;" data-toggle="modal" data-target="#exampleModalCenter" (click)="abrirModal2()">Conócelos</button>
+              </div>
+  
+            </div>
+  
+            <app-modal></app-modal>
+          </div>
+
+        </div>
+
+        <br>
+        <!-- 3 -->
+        <div class="row justify-content-center align-content-center"  style="margin-top: 0px; gap: 8%;">
+          <div data-aos="fade-up" class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; display: flex; justify-content: center; align-content: center;">
+            <div class="custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fondoCardsDos.svg'); background-size: cover; height: 265px; width: 85%; overflow: hidden;" id="card_plan_1">
+  
+              <div class="container card-overlay" (mousemove)="onMouseMoveAct($event)" (mouseleave)="resetImagePositionAct()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                <img data-aos="zoom-out" data-aos-duration="3000" #followImageAct src="assets/imagenes/cards/ACTIVACION-8.png" style="position: relative; object-fit: cover; height: 140%; width: 135%; left: -4px; bottom: -2px;" alt="Nueva Imagen">
+              </div>
+  
+            </div>
+          </div>
+
+          <div class="row justify-content-center align-content-center" style="margin-top: -25px; gap: 8%; line-height: 1;">
+            <div class="col-md-3" style="text-align: center;">
+              <p style="font-size: 22px; font-family: Century Gothic; font-weight: bold;">Expertos en activación<br> estratégica</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row justify-content-center align-content-center" style="margin-top: 20px; gap: 8%;">
+  
+              <div class="col-md-3" style="text-align: center;">
+                <button type="button" class="btn custom-button10" style="font-size: 22px; padding-left: 30px; padding-right: 30px; font-family: Century Gothic; cursor: pointer;" data-toggle="modal" data-target="#exampleModalCenter" (click)="abrirModal3()">Conócelos</button>
+              </div>
+  
+            </div>
+  
+            <app-modal></app-modal>
+          </div>
+
+        </div>
+       
+
+        <div data-aos="fade-up" class="row justify-content-center align-content-center" style="margin-top: 40px; gap: 8%;">
+
+          <div class="col-md-1"></div>
+
+          <!-- 4 -->
+          <div class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; display: flex; justify-content: center; align-content: center;">
+            <div class="card plan custom-card cartas text-center" style="padding: auto; background-image: url('/assets/imagenes/imaFichas/fondoCardsDos.svg'); background-size: cover; height: 265px; width: 85%; overflow: hidden;" id="card_plan_1">
+
+              <div class="container card-overlay" (mousemove)="onMouseMoveLog($event)" (mouseleave)="resetImagePositionLog()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                <img data-aos="zoom-out" data-aos-duration="3000" #followImageLog src="assets/imagenes/cards/LOGISTICA-8.png" style="position: relative; object-fit: cover; height: 115%; width: 115%; left: -37px; bottom: 1.5px;" alt="Nueva Imagen">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row justify-content-center align-content-center" style="margin-top: -25px; gap: 8%; line-height: 1;">
+            <div class="col-md-3" style="text-align: center;">
+              <p style="font-size: 22px; font-family: Century Gothic; font-weight: bold;">Expertos en <br> logística y gestión <br> de proyectos</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row justify-content-center align-content-center" style="margin-top: 20px; gap: 8%;">
+  
+              <div class="col-md-1"></div>
+  
+              <div class="col-md-3" style="text-align: center;">
+                <button type="button" class="btn custom-button10" style="font-size: 22px; padding-left: 30px; padding-right: 30px; font-family: Century Gothic; cursor: pointer;" data-toggle="modal" data-target="#exampleModalCenter" (click)="abrirModal4()">Conócelos</button>
+              </div>
+  
+              <div class="col-md-1"></div>
+            </div>
+          </div>
+
+          <br>
+          
+          <!-- 5 -->
+          <div class="col-md-3" style="padding-top: 15px; padding-bottom: 50px; display: flex; justify-content: center; align-content: center;">
+            <div class="card plan custom-card cartas text-center" style="background-image: url('/assets/imagenes/imaFichas/fondoCardsDos.svg'); background-size: cover; height: 265px; width: 85%; overflow: hidden;" id="card_plan_1">
+
+              <div class="container card-overlay" (mousemove)="onMouseMoveStem($event)" (mouseleave)="resetImagePositionStem()" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                <img data-aos="zoom-out" data-aos-duration="3000" #followImageStem src="assets/imagenes/cards/STEM-8.png" style="position: relative; object-fit: cover; height: 115%; width: 115%; left: -25px; bottom: 25px;" alt="Nueva Imagen">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row justify-content-center align-content-center" style="margin-top: -25px; gap: 8%; line-height: 1;">
+            <div class="col-md-3" style="text-align: center;">
+              <p style="font-size: 22px; font-family: Century Gothic; font-weight: bold;">Expertos STEM<br> (Science, Technology,<br> Engineering and Mathematics)</p>
+            </div>
+          </div>
+
+
+          <div class="col-md-1"></div>
+
+        </div>
+
+        <!-- 2 botones de  conocelos-->
+
+        <div class="container">
+          <div class="row justify-content-center align-content-center" style="margin-top: 20px; gap: 8%;">
+
+            <div class="col-md-1"></div>
+            
+            <div class="col-md-3" style="text-align: center;">
+              <button type="button" class="btn custom-button10" style="font-size: 22px; padding-left: 30px; padding-right: 30px; font-family: Century Gothic; cursor: pointer;" data-toggle="modal" data-target="#exampleModalCenter" (click)="abrirModal5()">Conócelos</button>
+            </div>
+
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+
+        <div data-aos="fade-up"
+          style="margin-left: auto; margin-right: auto; width: 180px; height: 8px; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; background-color: #353F79;">
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- Carrusel en negro -->
+
+  <div class="row carru"
+    style="background-color: rgb(255, 255, 255); border: 2px solid rgba(255, 0, 0, 0); width: 100%; padding-top: 25px;">
+
+    <div data-aos="zoom-in-up" data-aos-duration="2500" class="container-fluid"
+      style="border: 2px solid #5eff0000; width: 100%; margin-bottom: 25px; margin-left: auto; margin-right: auto;">
+      <p class="txtAliados" style="font-family: Century Gothic; font-size: 30px; font-weight: bold; text-align: center;">NUESTROS ALIADOS</p>
+    </div>
+    <br>
+    <br>
+
+  </div>
+
+  <div class="row" style="background-color: rgb(255, 255, 255); border: 2px solid #ea12f100;">
+
+    <div class="col-md-1"></div>
+
+    <div class="col-md-10 contLogos" style="border: 2px solid rgba(0, 81, 255, 0);">
+      <div id="logoCarousel" class="carousel slide" data-ride="carousel"
+        style="background-color: #ffffff; ">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row rowLog">
+              <!-- Logo 1 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/ABINBEV.svg"
+                  style="width: 160px; height: 70px" class="d-block mx-3 logos"
+                  alt="Logo 11">
+              </div>
+              <!-- Logo 2 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/AFIDRO.svg"
+                  style="width: 160px; height: 70px" class="d-block mx-3 logos"
+                  alt="Logo 2">
+              </div>
+              <!-- Logo 3 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/ALIANZA TEAM.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 3">
+              </div>
+              <!-- Logo 4 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/ALPINA.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 4">
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row rowLog">
+              <!-- Logo 1 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/ALQUERIA.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 11">
+              </div>
+              <!-- Logo 2 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/BANCO CAJA SOCIAL.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 2">
+              </div>
+              <!-- Logo 3 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/BELCORP.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 3">
+              </div>
+              <!-- Logo 4 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/BRISTROL.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 4">
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="row rowLog">
+              <!-- Logo 1 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/COCACOLA.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 11">
+              </div>
+              <!-- Logo 2 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/COLGATE PALMOLIVE.svg"
+                  style="width: 160px; height: 70px" class="d-block mx-3 logos"
+                  alt="Logo 2">
+              </div>
+              <!-- Logo 3 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/COLOMBINA.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 3">
+              </div>
+              <!-- Logo 4 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/COLPENSIONES.svg"
+                  style="width: 160px; height: 70px;"class="d-block mx-3 logos"
+                  alt="Logo 4">
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-item">
+            <div class="row rowLog">
+              <!-- Logo 1 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/COLSUBSIDIO.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 11">
+              </div>
+              <!-- Logo 2 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/CRUZ VERDE.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 2">
+              </div>
+              <!-- Logo 3 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/DANONE.svg"
+                  style="width: 160px; height: 70px;"class="d-block mx-3 logos"
+                  alt="Logo 3">
+              </div>
+              <!-- Logo 4 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/DERCO.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 4">
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="carousel-item">
+            <div class="row rowLog">
+              <!-- Logo 1 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/DIAGEO.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 11">
+              </div>
+              <!-- Logo 2 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/DUPONT.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 2">
+              </div>
+              <!-- Logo 3 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/GRUPON.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 3">
+              </div>
+              <!-- Logo 4 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/SANOFI.svg"
+                  style="width: 160px; height: 70px;" class="d-block mx-3 logos"
+                  alt="Logo 4">
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="carousel-item">
+            <div class="row rowLog">
+              <!-- Logo 1 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/LOGO PEPSICO.svg"
+                  style="height: 70px; width: 160px;" class="d-block mx-3 logos"
+                  alt="Logo 11">
+              </div>
+              <!-- Logo 2 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/LOGO POSTOBON.svg"
+                  style="height: 70px; width: 160px;" class="d-block mx-3 logos"
+                  alt="Logo 2">
+              </div>
+              <!-- Logo 3 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/LOGO TQ.svg"
+                  style="height: 70px; width: 160px;" class="d-block mx-3 logos"
+                  alt="Logo 3">
+              </div>
+              <!-- Logo 4 -->
+              <div class="col-md-3">
+                <img loading="lazy" src="assets/imagenes/logos-aliados/NOVO.svg"
+                  style="height: 70px; width: 160px;" class="d-block mx-3 logos"
+                  alt="Logo 4">
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 7 -->
+          <div class="carousel-item">
+            <div class="row rowLog">
+              <!-- Logo 1 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/PORVENIR.svg"
+                  style="height: 70px; width: 160px;" class="d-block mx-3 logos"
+                  alt="Logo 11">
+              </div>
+              <!-- Logo 2 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/SCOTIABANK Y COLPATRIA.svg"
+                  style="height: 70px; width: 160px;" class="d-block mx-3 logos"
+                  alt="Logo 2">
+              </div>
+              <!-- Logo 3 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/SEMANA.svg"
+                  style="height: 70px; width: 160px;" class="d-block mx-3 logos"
+                  alt="Logo 3">
+              </div>
+              <!-- Logo 4 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/SYNGENTA.svg"
+                  style="height: 70px; width: 160px;" class="d-block mx-3 logos"
+                  alt="Logo 4">
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 8 -->
+          <div class="carousel-item">
+            <div class="row rowLog">
+              <!-- Logo 1 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/TRECE.svg"
+                  style="height: 70px; width: 160px;" class="d-block mx-3 logos"
+                  alt="Logo 11">
+              </div>
+              <!-- Logo 2 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/UNILEVER.svg"
+                  style="height: 70px; width: 160px;" class="d-block mx-3 logos"
+                  alt="Logo 2">
+              </div>
+              <!-- Logo 3 -->
+              <div class="col-md-3">
+                <img loading="lazy" src="assets/imagenes/logos-aliados/TQ.svg"
+                  style="height: 70px; width: 160px;" class="d-block mx-3 logos"
+                  alt="Logo 3">
+              </div>
+              <!-- Logo 4 -->
+              <div class="col-md-3">
+                <img loading="lazy"
+                  src="assets/imagenes/logos-aliados/LOGO PEPSICO.svg"
+                  style="height: 70px; width: 160px;" class="d-block mx-3 logos"
+                  alt="Logo 4">
+              </div>
+            </div>
+          </div>
+          <!-- Agrega más slides según sea necesario -->
+        </div>
+
+        <!-- Controles del carrusel -->
+        <a class="carousel-control-prev"
+          style="margin-left: -60px; color:black; opacity: 1;"
+          href="#logoCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+        </a>
+
+        <a class="carousel-control-next"
+          style="margin-right: -60px; opacity: 1;" href="#logoCarousel"
+          role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+        </a>
+
+      </div>
+    </div>
+
+    <div class="col-md-1"></div>
+  </div>
+
+
+    <!-- formulario normal-->
+    <div id="seccion-hablemos"
+    style="background-image: url('/assets/videos/fondo2.gif'); height: 800px; background-size: cover;  background-color :#FFFFFF;">
+    <!-- Primera fila -->
+    <div class="container-fluid"
+      style="display: flex; justify-content: center; align-items: center; padding: 30px; height: 100%;">
+      <div class="row"
+        style="background-color: transparent; font-family: 'Arial Nova', Arial, sans-serif; height: 100%; width: 100%; border: 2px solid #00000000;">
+
+        <div class="col-md-7 "
+          style="display: block; align-content: center; justify-content: center; background-color: transparent; border: 2px solid rgba(255, 0, 0, 0); height: 100%;">
+          <div
+            style="display: flex; justify-content: center; align-items: left; flex-direction: column; padding: 30px; text-align: left; color: white; border: 2px solid #14a5f800; font-size: 20px; font-family : 'Century Gothic'; height: 95%; ">
+            <br>
+            <br><br><br><br><br>
+            <p
+              style="font-family: 'Arial Nova', Arial, sans-serif; font-size: 22px; line-height: 1.3;"><strong>La
+                versatilidad de nuestro modelo de trabajo</strong>
+              nos <br> permite adaptarnos a las necesidades de
+              nuestros <br> aliados, ofreciéndoles soluciones con un
+              impacto<br> <strong>“END TO END”</strong> que genera valor en
+              toda la cadena<br> del negocio.</p>
+            <br>
+            <p
+              style="font-size: 25px; font-family:'Arial Nova', Arial, sans-serif; margin-left: 5px; z-index: 2; margin-bottom: 8px;"><strong>¿Cuál
+                es tu desafío?</strong></p>
+
+            <!-- linea roja de titulo -->
+            <img
+              style="position: absolute; left: 2%; margin-top: 7.5%; width: 32%;"
+              src="../../../assets/imagenes/linea-roja.svg" alt>
+
+            <div style="margin-top: 7px; gap: 8%;">
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-1"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif;"
+                for="flexCheckDefault">Quiero que mí carrera extienda su
+                potencial.</label>
+              <br>
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-2"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif;"
+                for="flexCheckDefault">Es momento de transformar nuestra
+                cultura.</label>
+              <br>
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-3"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif;"
+                for="flexCheckDefault">Necesitamos humanizar nuestros
+                líderes.</label>
+              <br>
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-4"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif;"
+                for="flexCheckDefault">Fortalecer nuestra propuesta de
+                valor.</label>
+              <br>
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-5"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif; margin-top: 5px;"
+                for="flexCheckDefault"><p style="line-height: 1;">Los resultados
+                  nos evidencian una necesidad de <br> fortalecer nuestra
+                  propuesta de valor.</p></label>
+              <br>
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-6"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif; margin-top: 5px;"
+                for="flexCheckDefault"><p style="line-height: 1;">Los
+                  movimientos del mercado nos piden ser más <br> disruptivos en
+                  nuestra innovación.</p></label>
+              <br>
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-7"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif; margin-top: 5px;"
+                for="flexCheckDefault"><p style="line-height: 1;">Llego el
+                  momento de desarrollar las habilidades <br> de nuestro equipo
+                  para un mejor desempeño y liderazgo.</p></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5"
+          style="display: block; align-content: center; justify-content: right; border: 2px solid #e0181800; ">
+
+          <div class=" "
+            style=" display: flex; flex-direction: column; padding-right: 25px; justify-content: center; align-items: center;  background-color: transparent; height: 70%; margin-right: -75px; margin-top: 130px; border: 2px solid #0000ff00">
+
+            <input type="text" class="form-control" placeholder="Nombre"
+              style="background-color: transparent; color: white;">
+            <input type="text" class="form-control" placeholder="E-mail"
+              style="background-color: transparent; color: white;">
+            <input type="text" class="form-control" placeholder="Celular"
+              style="background-color: transparent; color: white;">
+
+            <textarea name id cols="30" class="text-area"
+              placeholder="Profundiza sobre tu reto" rows="8"
+              style="background-color: transparent; color: white;"></textarea>
+            <div
+              style="border: 2px solid rgba(255, 0, 0, 0); width: 65%; margin-top: 8px;">
+              <p
+                style="background-color: transparent; color: white; text-align: left; font-size: 14px; line-height: 1;">Al
+                llenar este formulario aceptas el tratamiento de
+                <br>datos,conoce nuestra politica de datos <a
+                  style="font-weight: bold; text-decoration: none; color: white;"
+                  href="#">aqui</a></p>
+
+              <button type="button" class="btn btn-secondary"
+                style="background: white; width: 100px; padding: 5px; color: red; font-weight: bold; margin-top: 15px;">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- formulario responsive-->
+  <div id="seccion-hablemos2"
+    style="background-image: url('/assets/videos/fondo2.gif'); height: 800px; background-size: cover;  background-color :#FFFFFF;">
+    <!-- Primera fila -->
+    <div class="container-fluid containerF"
+      style="display: flex; justify-content: center; align-items: center; padding: 30px; height: 100%;">
+      <div class="row rowss"
+        style="background-color: transparent; font-family: 'Arial Nova', Arial, sans-serif; height: 100%; width: 100%; border: 2px solid #00000000;">
+
+        <div class="col-md-7 "
+          class="containerPrin"
+          style="display: block; align-content: center; justify-content: center; background-color: transparent; border: 2px solid rgba(255, 0, 0, 0); height: 100%;">
+          <div
+            class="contHijo"
+            style="display: flex; justify-content: center; align-items: left; flex-direction: column; padding: 30px; text-align: left; color: white; border: 2px solid #14a5f800; font-size: 20px; font-family : 'Century Gothic'; height: 95%; ">
+            <br>
+            <br><br><br><br><br>
+            <p
+              class="versati"
+              style="font-family: 'Arial Nova', Arial, sans-serif; font-size: 22px; line-height: 1.3;"><strong>La
+                versatilidad de nuestro modelo de trabajo</strong>
+              nos <br> permite adaptarnos a las necesidades de
+              nuestros <br> aliados, ofreciéndoles soluciones con un
+              impacto<br> <strong>“END TO END”</strong> que genera valor en
+              toda la cadena<br> del negocio.</p>
+            <br>
+            <p
+              class="desafio"
+              style="font-size: 25px; font-family:'Arial Nova', Arial, sans-serif; margin-left: 5px; z-index: 2; margin-bottom: 8px;"><strong>¿Cuál
+                es tu desafío?</strong></p>
+
+            <!-- linea roja de titulo -->
+            <img
+              class="lineaRoja"
+              style="position: absolute; left: 2%; margin-top: 7.5%; width: 32%;"
+              src="../../../assets/imagenes/linea-roja.svg" alt>
+
+            <div style="margin-top: 7px; gap: 8%;">
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-1"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif;"
+                for="flexCheckDefault">Quiero que mí carrera extienda su
+                potencial.</label>
+              <br>
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-2"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif;"
+                for="flexCheckDefault">Es momento de transformar nuestra
+                cultura.</label>
+              <br>
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-3"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif;"
+                for="flexCheckDefault">Necesitamos humanizar nuestros
+                líderes.</label>
+              <br>
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-4"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif;"
+                for="flexCheckDefault">Fortalecer nuestra propuesta de
+                valor.</label>
+              <br>
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-5"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif; margin-top: 5px;"
+                for="flexCheckDefault"><p style="line-height: 1;">Los resultados
+                  nos evidencian una necesidad de <br> fortalecer nuestra
+                  propuesta de valor.</p></label>
+              <br>
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-6"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif; margin-top: 5px;"
+                for="flexCheckDefault"><p style="line-height: 1;">Los
+                  movimientos del mercado nos piden ser más <br> disruptivos en
+                  nuestra innovación.</p></label>
+              <br>
+              <input class="form-check-input" type="checkbox" value
+                id="flexCheckDefault-7"><label class="form-check-label"
+                style="font-family: 'Arial Nova', Arial, sans-serif; margin-top: 5px;"
+                for="flexCheckDefault"><p style="line-height: 1;">Llego el
+                  momento de desarrollar las habilidades <br> de nuestro equipo
+                  para un mejor desempeño y liderazgo.</p></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 princ"
+          style="display: block; align-content: center; justify-content: right; border: 2px solid #e0181800; ">
+
+          <div class="formulario"
+            style=" display: flex; flex-direction: column; padding-right: 25px; justify-content: center; align-items: center;  background-color: transparent; height: 70%; margin-right: -75px; margin-top: 130px; border: 2px solid #0000ff00">
+
+            <input type="text" class="form-control" placeholder="Nombre"
+              style="background-color: transparent; color: white;">
+            <input type="text" class="form-control" placeholder="E-mail"
+              style="background-color: transparent; color: white;">
+            <input type="text" class="form-control" placeholder="Celular"
+              style="background-color: transparent; color: white;">
+
+            <textarea name id cols="30" class="text-area"
+              placeholder="Profundiza sobre tu reto" rows="8"
+              style="background-color: transparent; color: white;"></textarea>
+            <div
+              class="tratamiento"
+              style="border: 2px solid rgba(255, 0, 0, 0); width: 65%; margin-top: 8px;">
+              <p
+                style="background-color: transparent; color: white; text-align: left; font-size: 14px; line-height: 1;">Al
+                llenar este formulario aceptas el tratamiento de
+                <br>datos,conoce nuestra politica de datos <a
+                  style="font-weight: bold; text-decoration: none; color: white;"
+                  href="#">aqui</a></p>
+
+              <button type="button" class="btn btn-secondary"
+                style="background: white; width: 100px; padding: 5px; color: red; font-weight: bold; margin-top: 15px;">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+  

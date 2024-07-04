@@ -1,0 +1,21 @@
+<div class="modal fade bd-example-modal-lg mod" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-custom-width" role="document">
+        <div class="modal-content shadow-box">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" style="font-family: 'Arial Nova', Arial, sans-serif;" aria-label="Close">
+                        X
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="text">
+                    <ng-container *ngIf="modalContentService.modalContent$ | async as modalContent">
+                        <!-- Aquí puedes usar el contenido dinámico recibido -->
+                        <div [innerHTML]="modalContent"></div>
+                    </ng-container>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  

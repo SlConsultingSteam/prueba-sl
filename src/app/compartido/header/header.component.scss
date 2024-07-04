@@ -1,0 +1,27 @@
+/* Fuente y estilo base para todos los enlaces de navegación */
+.nav-link {
+  font-family: 'Arial Nova', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff !important;
+  transition: none; /* Elimina cualquier transición para que el cambio de estilo sea inmediato */
+}
+
+/* Estilo para el enlace activo */
+.activo {
+  text-decoration: underline;
+  text-decoration-thickness: 3px; /* Ajusta el grosor de la línea */
+  text-underline-offset: 3px; /* Ajusta la distancia del subrayado al texto */
+}
+
+/* Estilo para los enlaces al pasar el mouse */
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+// Dispositivos Móviles Pequeños (menos de 600px)
+@media (min-width: 320px) and (max-width: 599px) {
+  .logoSL {
+    width: 35% !important;
+  }
+}

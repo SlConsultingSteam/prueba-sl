@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.detras {
+  z-index: 1;
+}
+
+.videoI{
+  width: 100%;
+}
+
+
+.form-control {
+  width: 65% ;
+  height: 16%;
+  padding: 16px;
+  margin-bottom: 15px; 
+  border-radius: 8px;
+}
+
+.text-area {
+  width: 65%;
+  resize: none;
+  border: 1.5px solid silver;
+  border-radius: 8px;
+  height: 65%;
+  padding: 15px;
+}
+
+
+.form-check-input {
+  padding: 4px;
+  border-radius: 100%;
+  margin-top: 6px;
+  width: 20px; /* Ajusta el ancho del checkbox */
+  height: 16px; /* Ajusta la altura del checkbox */
+}
+
+::placeholder {
+  color: white;
+}
+
+
+.banner {
+  position: fixed;
+  /* Ajusta la posición izquierda según tu diseño */
+  top: 38%; /* Centra verticalmente el banner */
+  right: 0; /* Coloca el banner en el lado derecho */
+  transform: translateY(-50%);
+  padding: 0.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  background-color: #625e5e; /* Color de fondo gris para el banner */
+  background-color: rgba(
+    98,
+    94,
+    94,
+    0.7
+  ); /* Color de fondo gris con 70% de opacidad */
+  border-radius: 10px; /* Radio de los bordes de 10px para hacerlos redondos */
+}
+
+
+.redes-sociales {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Cambia a 'row' si quieres los iconos en una fila */
+  align-items: center;
+}
+
+.redes-sociales li {
+  margin: 5px; /* Espacio entre los iconos */
+}
+
+.redes-sociales img {
+  width: 40px; /* Ajusta el tamaño de los iconos según tus necesidades */
+  height: 40px;
+}
+
+
+

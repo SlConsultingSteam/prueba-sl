@@ -1,0 +1,200 @@
+<div class="contenido" style="background-color: white;">
+  
+
+  <!-- Fondo de ojo y texto -->
+  <div class="fondoOjo" style="background: url(../../../assets/imagenes/ojoBanner.png); background-repeat: no-repeat; background-size: contain; width: 100%; height: 765px; ">
+    <div style="display: flex; justify-content: center; align-items: center; height: 90%;">
+
+    <div class="detras" style="position: absolute; height: 3.5%; width: 44.5%; left: 0; margin-top: -8.5%; background-color: #ff6112d2;"></div>
+      <p style="z-index: 2; text-shadow: 0px 0px 9px rgba(0, 0, 0, 0); color: white; font-size: 34px; font-family: 'Century Gothic'; text-align: center;"><strong>Insights y Arquetipos</strong>  representan una dupla de alto <br>
+        valor, que nos permite <strong>develar verdades </strong> y <strong> desafiar</strong><br>
+        <strong>pensamientos</strong>  para crear escenarios de conexión <br>
+        relevantes.</p>
+    </div>
+  </div>
+
+<!-- Sección del insight y circulo naranja-->
+  <div class="elInsight" style="margin-left: 15%;">
+    <img src="../../../assets/imagenes/bola-naranja.svg" style="z-index: 1; position: absolute; height: 10%; width: 4%; right: 0; left: 213px; margin-top: -18px;" alt="bola-naranja">
+
+    <div class="containeTitle">
+      
+      <h2 style="position: sticky; z-index: 3; font-size: 36px; font-family: 'Century Gothic';"><data style="color: white;">El</data> Insight</h2>
+    
+    </div>
+
+    <p style="font-size: 25px; margin-left: 40px;  text-align: left; font-family: 'Arial Nova', Arial, sans-serif; ">es una <strong>verdad humana</strong> que nos señala <strong>un camino <br></strong> para comenzar a actuar.</p>
+
+  </div>
+
+<!-- Seccion de el borde naranja -->
+  <div style="display: flex; justify-content: center; align-items: center; margin-top: 40px; height: auto; width: 100%;">
+
+    <div style="display: flex; justify-content: center; align-content: center; border-top-left-radius: 150px; border-top-right-radius: 150px; border-left: 6px solid #FF6012; border-top: 6px solid #FF6012; border-right: 6px solid #FF6012; width: 50%; padding: 0; margin: 0;">
+      <video class="videoI" style="border-top-left-radius: 150px; border-top-right-radius: 150px;" autoplay loop [muted]="muted">
+        <source src="../../../assets/imagenes/videos/el_insight.mp4" type="video/mp4">
+      </video>
+    </div>
+
+  </div>
+
+ <!-- Sección de boton contáctanos  -->
+  <div style="display: flex; justify-content: center; align-items: center; padding: 10px; height: 20%;">
+    <button (click)="scrollToForm()" style="font-family: 'Arial Nova', Arial, sans-serif; font-weight: 500; border: none; color: white; padding-top: 5px; font-size: 22px; padding-bottom: 5px; padding-left: 30px; padding-right: 30px; border-radius: 20px; background-color: #F7003E;">Contáctanos</button>
+  </div>
+
+
+  <div class="banner" #banner style="display: none;">
+    <ul class="redes-sociales">
+
+      <li><a *ngIf="arquetipos" href="#" target="_blank"
+          rel="noopener noreferrer" (mouseover)="cambiarA()"><img
+            style="width: 50px;" src="assets/imagenes/iconos/arquetipos.svg"
+            alt="Link"></a>
+        <a *ngIf="arquetiposColor" href="#" target="_blank"
+          rel="noopener noreferrer" (mouseout)="cambiarABlanco()"><img
+            style="width: 50px;"
+            src="assets/imagenes/iconos/arquetiposColor.svg" alt="Link"></a>
+      </li>
+      <li style="margin-top: -2px;"><a *ngIf="email" href="#"
+          (mouseover)="cambiarE()"><img style="width: 40px;"
+            src="assets/imagenes/iconos/email.svg" alt="email"></a>
+        <a *ngIf="emailColor" href="#" target="_blank" rel="noopener noreferrer"
+          (mouseout)="cambiarEBlanco()"><img style="width: 40px;"
+            src="assets/imagenes/iconos/emailColor.svg" alt="email"></a>
+      </li>
+
+      <li style="margin-top: -2px;"><a *ngIf="whatsapp" href="https://web.whatsapp.com/"
+        (mouseover)="cambiarW()"><img style="width: 35px;"
+          src="assets/imagenes/iconos/whatsapp.svg" alt="whatsapp"></a>
+      <a *ngIf="whatsappColor" href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"
+        (mouseout)="cambiarWBlanco()"><img style="width: 35px;"
+          src="assets/imagenes/iconos/whatsappColor.svg" alt=""></a>
+    </li>
+
+      <li><a *ngIf="facebook" href="https://www.facebook.com/SLInsightsyArquetypos" (mouseover)="cambiarF()"><img
+            style="width: 35px;" src="assets/imagenes/iconos/facebook.svg"
+            alt="Facebook"></a>
+        <a *ngIf="facebookColor" href="https://www.facebook.com/SLInsightsyArquetypos" target="_blank"
+          rel="noopener noreferrer" (mouseout)="cambiarFBlanco()"><img
+            style="width: 35px;" src="assets/imagenes/iconos/facebookColor.svg"
+            alt="Facebook"></a>
+      </li>
+      <li><a *ngIf="instagram" href="https://www.instagram.com/slconsulting_i_a/" target="_blank"
+          rel="noopener noreferrer" (mouseover)="cambiarI()"><img
+            style="width: 35px;" src="assets/imagenes/iconos/instagram.svg"
+            alt="Instagram"></a>
+        <a *ngIf="instagramColor" href="https://www.instagram.com/slconsulting_i_a/" target="_blank"
+          rel="noopener noreferrer" (mouseout)="cambiarIBlanco()"><img
+            style="width: 35px;" src="assets/imagenes/iconos/instagramColor.svg"
+            alt="Instagram"></a>
+      </li>
+      <li><a *ngIf="link" href="#" target="_blank" (mouseover)="cambiarL()"><img
+            style="width: 35px;" src="assets/imagenes/iconos/link.svg"
+            alt="Link"></a>
+        <a *ngIf="linkColor"
+          href="https://www.linkedin.com/company/sl-insights-arquetypos"
+          target="_blank" rel="noopener noreferrer"
+          (mouseout)="cambiarLBlanco()"><img style="width: 35px;"
+            src="assets/imagenes/iconos/linkColor.svg" alt="Link"></a>
+      </li>
+
+      <!-- Añade más iconos de redes sociales si lo deseas -->
+    </ul>
+  </div>
+
+
+  <!-- Sección de los arquetipos y circulo naranja-->
+  <div class="elInsight" style="margin-left: 15%; margin-top: 50px;">
+    <img src="../../../assets/imagenes/bola-naranja.svg" style="z-index: 1; position: absolute; height: 13%; width: 8%; right: 0; left: 190px; margin-top: -25px;" alt="bola-naranja">
+
+    <div class="containeTitle">
+      <h2 style="position: sticky; z-index: 3; font-size: 36px; font-family: 'Arial Nova', Arial, sans-serif;"><data style="color: white;">Los</data> arquetipos</h2>
+    </div>
+
+    <p style="font-size: 25px; margin-left: 75px;  text-align: left; font-family: 'Arial Nova', Arial, sans-serif; ">son patrones de comportamientos y nos permiten entenderlas<br>
+      <strong>motivaciones humanas,</strong> explicándonos <strong>porque <br> actuamos como actuamos.</strong> 
+    </p>
+
+  </div>
+
+  <!-- Seccion de el borde naranja -->
+  <div style="display: flex; justify-content: center; align-items: center; margin-top: 40px; height: auto; width: 100%;">
+
+    <div style="display: flex; justify-content: center; align-content: center; border-top-left-radius: 150px; border-top-right-radius: 150px; border-left: 6px solid #FF6012; border-top: 6px solid #FF6012; border-right: 6px solid #FF6012; width: 50%; padding: 0; margin: 0;">
+      <video class="videoI" style="border-top-left-radius: 150px; border-top-right-radius: 150px;" autoplay loop [muted]="muted">
+        <source src="../../../assets/imagenes/videos/arquetipos.mp4" type="video/mp4">
+      </video>
+    </div>
+
+  </div>
+
+  <!-- Sección de boton volver  -->
+  <div style="display: flex; justify-content: center; align-items: center; margin-top: 80px; margin-bottom: 8px; height: 20%;">
+    <a style="font-family: 'Arial Nova', Arial, sans-serif; font-weight: 500; border: none; color: white; padding-top: 5px; font-size: 22px; padding-bottom: 5px; padding-left: 55px; padding-right: 55px; 
+    border-radius: 20px; background-color: #F7003E; text-decoration: none;" href="../inicio/inicio.component.html">Volver</a> 
+  </div>
+
+
+  <!-- formulario -->
+  <div  style="background-image: url('/assets/videos/fondo2.gif'); height: 800px; background-size: cover;  background-color :#FFFFFF;  margin-top: -50px;" >
+    <!-- Primera fila -->
+  <div class="container-fluid" style="display: flex; justify-content: center; align-items: center; padding: 30px; height: 100%;">
+    <div id="formulario" class="row" style="background-color: transparent; font-family: 'Arial Nova', Arial, sans-serif; height: 100%; width: 100%;"  >
+          
+      <div class="col-md-7 " style="display: block; align-content: center; justify-content: center; background-color: transparent;;">
+          <div style="display: flex; justify-content: center; align-items: left; flex-direction: column; padding: 30px; text-align: left; color: white; font-size: 20px; font-family : 'Century Gothic'; height: 95%; ">
+            <br>
+            <br><br><br><br><br>
+            <p style="font-family: 'Arial Nova', Arial, sans-serif; font-size: 22px; line-height: 1.3;" ><strong>La versatilidad de nuestro modelo de trabajo</strong>
+              nos <br> permite  adaptarnos a las necesidades de
+              nuestros <br> aliados, ofreciéndoles soluciones con un
+              impacto<br> <strong>“END TO END”</strong> que genera valor en
+              toda la cadena<br> del negocio.</p>
+            <br>
+            <p style="font-size: 25px; font-family:'Arial Nova', Arial, sans-serif; margin-left: 5px; z-index: 2; margin-bottom: 8px;"><strong>¿Cuál es tu desafío?</strong></p>
+            
+            <!-- linea roja de titulo -->
+            <img style="position: absolute; left: 2%; margin-top: 7.5%; width: 30%;" src="../../../assets/imagenes/linea-roja.svg" alt="">
+            
+            <div style="margin-top: 7px; gap: 8%;">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault-1"><label class="form-check-label" style="color: white; font-family: 'Arial Nova', Arial, sans-serif;" for="flexCheckDefault">Quiero que mí carrera extienda su potencial.</label>                 
+              <br>
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault-2"><label class="form-check-label" style="color: white; font-family: 'Arial Nova', Arial, sans-serif;" for="flexCheckDefault">Es momento de transformar nuestra cultura.</label>                 
+              <br>
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault-3"><label class="form-check-label" style="color: white; font-family: 'Arial Nova', Arial, sans-serif;" for="flexCheckDefault">Necesitamos humanizar nuestros líderes.</label>                 
+              <br>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault-4"><label class="form-check-label" style="color: white; font-family: 'Arial Nova', Arial, sans-serif;" for="flexCheckDefault">Fortalecer nuestra propuesta de valor.</label>                 
+              <br>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault-5"><label class="form-check-label" style="color: white; font-family: 'Arial Nova', Arial, sans-serif; margin-top: 5px;" for="flexCheckDefault"><p style="line-height: 1;">Los resultados nos evidencian una necesidad de <br> fortalecer nuestra propuesta de valor.</p></label>
+              <br>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault-6"><label class="form-check-label" style="color: white; font-family: 'Arial Nova', Arial, sans-serif; margin-top: 5px;" for="flexCheckDefault"><p style="line-height: 1;">Los movimientos del mercado nos piden ser más <br> disruptivos en nuestra innovación.</p></label>
+              <br>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault-7"><label class="form-check-label" style="font-family: 'Arial Nova', Arial, sans-serif; margin-top: 5px;" for="flexCheckDefault"><p style="line-height: 1;">Llego el momento de desarrollar las habilidades <br> de nuestro equipo para un mejor desempeño y liderazgo.</p></label>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md-5" style="display: block; align-content: center; justify-content: right; border: 2px solid #e0181800; ">
+          
+          <div class="" style=" display: flex; flex-direction: column; padding-right: 25px; justify-content: center; align-items: center;  background-color: transparent; height: 70%; margin-right: -75px; margin-top: 130px; border: 2px solid #0000ff00">
+                  
+            
+            <input type="text" class="form-control" placeholder="Nombre" style="background-color: transparent; color: white;">
+                  <input type="text" class="form-control" placeholder="E-mail" style="background-color: transparent; color: white;">  
+                  <input type="text" class="form-control" placeholder="Celular" style="background-color: transparent; color: white;">
+                  
+                  <textarea name="" id="" cols="30" class="text-area" placeholder="Profundiza sobre tu reto" rows="8" style="background-color: transparent; color: white;"></textarea>
+                  <div style="border: 2px solid rgba(255, 0, 0, 0); width: 65%; margin-top: 8px;">
+                    <p style="background-color: transparent; color: white; text-align: left; font-size: 14px; line-height: 1;">Al llenar este formulario aceptas el tratamiento de <br>datos,conoce nuestra politica de datos <a style="font-weight: bold; text-decoration: none; color: white;" href="#">aqui</a></p>
+
+                    <button type="button" class="btn btn-secondary" style="background: white; width: 100px; padding: 5px; color: red; font-weight: bold; margin-top: 15px;">Enviar</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+</div>
